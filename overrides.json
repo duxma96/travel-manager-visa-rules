@@ -1,19 +1,571 @@
 {
   "_comment": "Hand-checked rules that replace the passport-index defaults. Key: passport ISO code, then destination ISO code (or SCHENGEN). Every entry needs src (official page) and checked (YYYY-MM-DD). The twice-yearly routine extends this to every destination.",
   "RS": {
+    "AD": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "rolling",
+          "days": 90,
+          "window": 180
+        }
+      ],
+      "note": "90 days in a 180-day period.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/andorra",
+      "checked": "2026-10-07"
+    },
+    "AE": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "Up to 90 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/united-arab-emirates",
+      "checked": "2026-10-07"
+    },
+    "AG": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "rolling",
+          "days": 90,
+          "window": 180
+        }
+      ],
+      "note": "90 days in a 180-day period.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/antigua-and-barbuda",
+      "checked": "2026-10-07"
+    },
+    "AM": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 180
+        }
+      ],
+      "note": "Up to 180 days within one year (counted as a single 180-day stay).",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/armenia",
+      "checked": "2026-10-07"
+    },
+    "AR": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "Up to 90 days per stay (3 months).",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/argentina",
+      "checked": "2026-10-07"
+    },
+    "AZ": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "Up to 90 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/azerbaijan",
+      "checked": "2026-10-07"
+    },
+    "BA": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "Up to 90 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/bosnia-and-herzegovina",
+      "checked": "2026-10-07"
+    },
+    "BB": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "Up to 90 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/barbados",
+      "checked": "2026-10-07"
+    },
+    "BR": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "Up to 90 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/brazil",
+      "checked": "2026-10-07"
+    },
+    "BY": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 30
+        }
+      ],
+      "note": "Up to 30 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/belarus",
+      "checked": "2026-10-07"
+    },
+    "CL": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "Up to 90 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/chile",
+      "checked": "2026-10-07"
+    },
+    "CN": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 30
+        }
+      ],
+      "note": "Up to 30 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/china",
+      "checked": "2026-10-07"
+    },
+    "CO": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "Can be extended by another 90 days (max 180 in a calendar year) — extension not counted here.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/colombia",
+      "checked": "2026-10-07"
+    },
+    "CR": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "Up to 90 days per stay (3 months).",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/costa-rica",
+      "checked": "2026-10-07"
+    },
+    "CY": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "rolling",
+          "days": 90,
+          "window": 180
+        }
+      ],
+      "note": "90 days in a 180-day period.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/cyprus",
+      "checked": "2026-10-07"
+    },
+    "EC": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "Up to 90 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/ecuador",
+      "checked": "2026-10-07"
+    },
+    "FM": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "Up to 90 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/micronesia",
+      "checked": "2026-10-07"
+    },
+    "GE": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 365
+        }
+      ],
+      "note": "Up to one year without a visa.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/georgia",
+      "checked": "2026-10-07"
+    },
+    "IL": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "Biometric passport; ETA-IL approval required before travel.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/israel",
+      "checked": "2026-10-07"
+    },
+    "IR": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "rolling",
+          "days": 15,
+          "window": 180
+        }
+      ],
+      "note": "Tourist stay up to 15 days within 6 months; visa needed for other purposes.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/iran",
+      "checked": "2026-10-07"
+    },
+    "JP": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "rolling",
+          "days": 90,
+          "window": 180
+        }
+      ],
+      "note": "Biometric passport; 90 days in a 6-month period from first entry (counted as 90 in any 180).",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/japan",
+      "checked": "2026-10-07"
+    },
+    "KG": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "rolling",
+          "days": 90,
+          "window": 180
+        }
+      ],
+      "note": "90 days in 6 months.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/kyrgyzstan-republic",
+      "checked": "2026-10-07"
+    },
+    "KN": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "rolling",
+          "days": 90,
+          "window": 180
+        }
+      ],
+      "note": "90 in 180 from the date of entry.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/saint-kitts-and-nevis",
+      "checked": "2026-10-07"
+    },
+    "KR": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "Up to 90 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/korea-republic",
+      "checked": "2026-10-07"
+    },
+    "KZ": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 30
+        }
+      ],
+      "note": "Up to 30 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/kazakhstan",
+      "checked": "2026-10-07"
+    },
+    "LC": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "rolling",
+          "days": 90,
+          "window": 180
+        }
+      ],
+      "note": "90 days in a 180-day period.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/saint-lucia",
+      "checked": "2026-10-07"
+    },
+    "MD": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "Up to 90 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/moldova",
+      "checked": "2026-10-07"
+    },
+    "ME": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "Up to 90 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/montenegro",
+      "checked": "2026-10-07"
+    },
+    "MK": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "Up to 90 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/north-macedonia",
+      "checked": "2026-10-07"
+    },
     "NP": {
       "req": "arrival",
-      "limits": [{ "kind": "year", "days": 150 }],
+      "limits": [
+        {
+          "kind": "year",
+          "days": 150
+        }
+      ],
       "note": "Tourist visa on arrival (15/30/90 days, extendable); at most 150 days per calendar year (January–December).",
       "src": "https://sa.nepalembassy.gov.np/pages/visa-4/",
       "checked": "2026-10-07"
     },
+    "OM": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 14
+        }
+      ],
+      "note": "Up to 14 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/oman",
+      "checked": "2026-10-07"
+    },
+    "PA": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "Up to 90 days per stay (3 months).",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/panama",
+      "checked": "2026-10-07"
+    },
+    "PE": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "Up to 90 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/peru",
+      "checked": "2026-10-07"
+    },
+    "RU": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 30
+        }
+      ],
+      "note": "Up to 30 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/russia",
+      "checked": "2026-10-07"
+    },
+    "SC": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "rolling",
+          "days": 90,
+          "window": 180
+        }
+      ],
+      "note": "90 days in a six-month period.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/seychelles",
+      "checked": "2026-10-07"
+    },
+    "SG": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 30
+        }
+      ],
+      "note": "Up to 30 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/singapore",
+      "checked": "2026-10-07"
+    },
+    "SR": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 30
+        }
+      ],
+      "note": "Up to 30 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/suriname",
+      "checked": "2026-10-07"
+    },
+    "TJ": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 30
+        }
+      ],
+      "note": "Up to 30 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/tajikistan",
+      "checked": "2026-10-07"
+    },
     "TR": {
       "req": "free",
-      "limits": [{ "kind": "rolling", "days": 90, "window": 180 }],
+      "limits": [
+        {
+          "kind": "rolling",
+          "days": 90,
+          "window": 180
+        }
+      ],
       "passportDays": 150,
       "note": "Up to 90 days in a period of 6 months counted from the first entry (counted here as 90 in any 180, the stricter reading). Passport valid 150 days from entry.",
       "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/turkey",
+      "checked": "2026-10-07"
+    },
+    "TT": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 30
+        }
+      ],
+      "note": "Up to 30 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/trinidad-and-tobago",
+      "checked": "2026-10-07"
+    },
+    "TV": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "rolling",
+          "days": 90,
+          "window": 180
+        }
+      ],
+      "note": "90 days in a 180-day period.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/tuvalu",
+      "checked": "2026-10-07"
+    },
+    "UA": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "rolling",
+          "days": 90,
+          "window": 180
+        }
+      ],
+      "note": "90 days in a 180-day period.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/ukraine",
+      "checked": "2026-10-07"
+    },
+    "UY": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "rolling",
+          "days": 90,
+          "window": 180
+        }
+      ],
+      "note": "90 days in a six-month period from first entry (counted as 90 in any 180). Passport valid 6 months.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/uruguay",
+      "checked": "2026-10-07"
+    },
+    "UZ": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 30
+        }
+      ],
+      "note": "Up to 30 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/uzbekistan",
+      "checked": "2026-10-07"
+    },
+    "VC": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "rolling",
+          "days": 30,
+          "window": 365
+        }
+      ],
+      "note": "30 days in a one-year period.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/saint-vincent-and-grenadines",
+      "checked": "2026-10-07"
+    },
+    "VE": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "Up to 90 days per stay.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/venezuela",
       "checked": "2026-10-07"
     }
   }
