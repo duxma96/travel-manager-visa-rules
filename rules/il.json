@@ -1,0 +1,1169 @@
+{
+ "format": "tm-visa-rules",
+ "version": 1,
+ "passport": "IL",
+ "generated": "2026-10-07",
+ "source": "passport-index-data (MIT) + checked overrides",
+ "rules": {
+  "AL": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "DZ": {
+   "req": "banned",
+   "limits": []
+  },
+  "AD": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "AO": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 30,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "AG": {
+   "req": "evisa",
+   "limits": []
+  },
+  "AR": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "AM": {
+   "req": "arrival",
+   "limits": []
+  },
+  "AU": {
+   "req": "evisa",
+   "limits": []
+  },
+  "AZ": {
+   "req": "arrival",
+   "limits": []
+  },
+  "BS": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "BH": {
+   "req": "evisa",
+   "limits": []
+  },
+  "BD": {
+   "req": "banned",
+   "limits": []
+  },
+  "BB": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 180
+    }
+   ],
+   "approx": true
+  },
+  "BY": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "BZ": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "BJ": {
+   "req": "evisa",
+   "limits": []
+  },
+  "BT": {
+   "req": "evisa",
+   "limits": []
+  },
+  "BO": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "BA": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "BW": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "BR": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "BN": {
+   "req": "banned",
+   "limits": []
+  },
+  "BF": {
+   "req": "evisa",
+   "limits": []
+  },
+  "BI": {
+   "req": "arrival",
+   "limits": []
+  },
+  "KH": {
+   "req": "arrival",
+   "limits": []
+  },
+  "CM": {
+   "req": "evisa",
+   "limits": []
+  },
+  "CA": {
+   "req": "eta",
+   "limits": []
+  },
+  "CV": {
+   "req": "arrival",
+   "limits": []
+  },
+  "CF": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "TD": {
+   "req": "evisa",
+   "limits": []
+  },
+  "CL": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "CN": {
+   "req": "required",
+   "limits": []
+  },
+  "CO": {
+   "req": "evisa",
+   "limits": []
+  },
+  "KM": {
+   "req": "arrival",
+   "limits": []
+  },
+  "CG": {
+   "req": "required",
+   "limits": []
+  },
+  "CD": {
+   "req": "evisa",
+   "limits": []
+  },
+  "CR": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 180
+    }
+   ],
+   "approx": true
+  },
+  "CI": {
+   "req": "eta",
+   "limits": []
+  },
+  "CU": {
+   "req": "evisa",
+   "limits": []
+  },
+  "CY": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "DJ": {
+   "req": "arrival",
+   "limits": []
+  },
+  "DM": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 180
+    }
+   ],
+   "approx": true
+  },
+  "DO": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 30,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "EC": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "EG": {
+   "req": "required",
+   "limits": []
+  },
+  "SV": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 180
+    }
+   ],
+   "approx": true
+  },
+  "GQ": {
+   "req": "evisa",
+   "limits": []
+  },
+  "ER": {
+   "req": "required",
+   "limits": []
+  },
+  "SZ": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 30,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "ET": {
+   "req": "arrival",
+   "limits": []
+  },
+  "FJ": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 120
+    }
+   ],
+   "approx": true
+  },
+  "GA": {
+   "req": "evisa",
+   "limits": []
+  },
+  "GM": {
+   "req": "required",
+   "limits": []
+  },
+  "GE": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 360
+    }
+   ],
+   "approx": true
+  },
+  "GH": {
+   "req": "required",
+   "limits": []
+  },
+  "GD": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "GT": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "GN": {
+   "req": "evisa",
+   "limits": []
+  },
+  "GW": {
+   "req": "arrival",
+   "limits": []
+  },
+  "GY": {
+   "req": "evisa",
+   "limits": []
+  },
+  "HT": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "HN": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "HK": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "IN": {
+   "req": "evisa",
+   "limits": []
+  },
+  "ID": {
+   "req": "evisa",
+   "limits": []
+  },
+  "IR": {
+   "req": "banned",
+   "limits": []
+  },
+  "IQ": {
+   "req": "evisa",
+   "limits": []
+  },
+  "IE": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "JM": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "JP": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "JO": {
+   "req": "arrival",
+   "limits": []
+  },
+  "KZ": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 30,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "KE": {
+   "req": "eta",
+   "limits": []
+  },
+  "KI": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "KW": {
+   "req": "required",
+   "limits": []
+  },
+  "KG": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 60,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "LA": {
+   "req": "arrival",
+   "limits": []
+  },
+  "LB": {
+   "req": "banned",
+   "limits": []
+  },
+  "LS": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "LR": {
+   "req": "evisa",
+   "limits": []
+  },
+  "LY": {
+   "req": "banned",
+   "limits": []
+  },
+  "MO": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "MG": {
+   "req": "arrival",
+   "limits": []
+  },
+  "MW": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "MY": {
+   "req": "banned",
+   "limits": []
+  },
+  "MV": {
+   "req": "banned",
+   "limits": []
+  },
+  "ML": {
+   "req": "required",
+   "limits": []
+  },
+  "MH": {
+   "req": "arrival",
+   "limits": []
+  },
+  "MR": {
+   "req": "evisa",
+   "limits": []
+  },
+  "MU": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "MX": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 180
+    }
+   ],
+   "approx": true
+  },
+  "FM": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 30,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "MD": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "MN": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 30,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "ME": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "MA": {
+   "req": "evisa",
+   "limits": []
+  },
+  "MZ": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 30,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "MM": {
+   "req": "evisa",
+   "limits": []
+  },
+  "NA": {
+   "req": "arrival",
+   "limits": []
+  },
+  "NR": {
+   "req": "arrival",
+   "limits": []
+  },
+  "NP": {
+   "req": "arrival",
+   "limits": []
+  },
+  "NZ": {
+   "req": "eta",
+   "limits": []
+  },
+  "NI": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "NE": {
+   "req": "required",
+   "limits": []
+  },
+  "NG": {
+   "req": "evisa",
+   "limits": []
+  },
+  "KP": {
+   "req": "required",
+   "limits": []
+  },
+  "MK": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "OM": {
+   "req": "evisa",
+   "limits": []
+  },
+  "PK": {
+   "req": "banned",
+   "limits": []
+  },
+  "PW": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "PS": {
+   "req": "free",
+   "limits": []
+  },
+  "PA": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "PG": {
+   "req": "arrival",
+   "limits": []
+  },
+  "PY": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "PE": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 180
+    }
+   ],
+   "approx": true
+  },
+  "PH": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 60,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "QA": {
+   "req": "evisa",
+   "limits": []
+  },
+  "RU": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "RW": {
+   "req": "arrival",
+   "limits": []
+  },
+  "KN": {
+   "req": "eta",
+   "limits": []
+  },
+  "LC": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 42,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "WS": {
+   "req": "arrival",
+   "limits": []
+  },
+  "ST": {
+   "req": "evisa",
+   "limits": []
+  },
+  "SA": {
+   "req": "banned",
+   "limits": []
+  },
+  "SN": {
+   "req": "arrival",
+   "limits": []
+  },
+  "RS": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "SC": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "SL": {
+   "req": "arrival",
+   "limits": []
+  },
+  "SG": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 30,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "SB": {
+   "req": "arrival",
+   "limits": []
+  },
+  "SO": {
+   "req": "evisa",
+   "limits": []
+  },
+  "ZA": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "KR": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "SS": {
+   "req": "evisa",
+   "limits": []
+  },
+  "LK": {
+   "req": "arrival",
+   "limits": []
+  },
+  "VC": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "SD": {
+   "req": "required",
+   "limits": []
+  },
+  "SR": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 180
+    }
+   ],
+   "approx": true
+  },
+  "SY": {
+   "req": "banned",
+   "limits": []
+  },
+  "TW": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "TJ": {
+   "req": "arrival",
+   "limits": []
+  },
+  "TZ": {
+   "req": "arrival",
+   "limits": []
+  },
+  "TH": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 60,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "TL": {
+   "req": "arrival",
+   "limits": []
+  },
+  "TG": {
+   "req": "evisa",
+   "limits": []
+  },
+  "TO": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "TT": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "TN": {
+   "req": "required",
+   "limits": []
+  },
+  "TM": {
+   "req": "required",
+   "limits": []
+  },
+  "TV": {
+   "req": "arrival",
+   "limits": []
+  },
+  "TR": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "UG": {
+   "req": "evisa",
+   "limits": []
+  },
+  "UA": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "AE": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "GB": {
+   "req": "eta",
+   "limits": []
+  },
+  "US": {
+   "req": "eta",
+   "limits": []
+  },
+  "UY": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "UZ": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 30,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "VU": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 120
+    }
+   ],
+   "approx": true
+  },
+  "VE": {
+   "req": "required",
+   "limits": []
+  },
+  "VN": {
+   "req": "evisa",
+   "limits": []
+  },
+  "YE": {
+   "req": "banned",
+   "limits": []
+  },
+  "ZM": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "approx": true
+  },
+  "ZW": {
+   "req": "arrival",
+   "limits": []
+  },
+  "AF": {
+   "req": "required",
+   "limits": []
+  },
+  "SCHENGEN": {
+   "req": "free",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "note": "Schengen area: 90 days in any 180.",
+   "src": "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/border-crossing_en",
+   "checked": "2026-10-07"
+  }
+ }
+}

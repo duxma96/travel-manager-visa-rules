@@ -1,0 +1,20 @@
+{
+  "_comment": "Hand-checked rules that replace the passport-index defaults. Key: passport ISO code, then destination ISO code (or SCHENGEN). Every entry needs src (official page) and checked (YYYY-MM-DD). The twice-yearly routine extends this to every destination.",
+  "RS": {
+    "NP": {
+      "req": "arrival",
+      "limits": [{ "kind": "year", "days": 150 }],
+      "note": "Tourist visa on arrival (15/30/90 days, extendable); at most 150 days per calendar year (January–December).",
+      "src": "https://sa.nepalembassy.gov.np/pages/visa-4/",
+      "checked": "2026-10-07"
+    },
+    "TR": {
+      "req": "free",
+      "limits": [{ "kind": "rolling", "days": 90, "window": 180 }],
+      "passportDays": 150,
+      "note": "Up to 90 days in a period of 6 months counted from the first entry (counted here as 90 in any 180, the stricter reading). Passport valid 150 days from entry.",
+      "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/turkey",
+      "checked": "2026-10-07"
+    }
+  }
+}
