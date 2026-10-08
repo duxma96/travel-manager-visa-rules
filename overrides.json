@@ -1,5 +1,4 @@
 {
-  "_comment": "Hand-checked rules that replace the passport-index defaults. Key: passport ISO code, then destination ISO code (or SCHENGEN). Every entry needs src (official page) and checked (YYYY-MM-DD). The twice-yearly routine extends this to every destination.",
   "RS": {
     "AD": {
       "req": "free",
@@ -146,6 +145,109 @@
       "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/bangladesh",
       "checked": "2026-10-08"
     },
+    "BF": {
+      "req": "required",
+      "limits": [],
+      "note": "A visa is required; the Serbian page states no length of stay.",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/burkina-faso",
+      "checked": "2026-10-08"
+    },
+    "BH": {
+      "req": "evisa",
+      "limits": [],
+      "note": "A visa is required and can be applied for online as an e-visa; the Serbian page states no length of stay.",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/bahrain",
+      "checked": "2026-10-08"
+    },
+    "BI": {
+      "req": "required",
+      "limits": [],
+      "passportDays": 180,
+      "note": "A visa is required (from the Burundi embassy in Paris); the Serbian page states no length of stay for ordinary passports.",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/burundi",
+      "checked": "2026-10-08"
+    },
+    "BJ": {
+      "req": "required",
+      "limits": [],
+      "note": "A visa is required (apply on the official e-visa site); the Serbian page states no length of stay for ordinary passports.",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/benin",
+      "checked": "2026-10-08"
+    },
+    "BN": {
+      "req": "required",
+      "limits": [],
+      "note": "A visa is required; the Serbian page states no length of stay.",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/brunei-darussalam",
+      "checked": "2026-10-08"
+    },
+    "BO": {
+      "req": "required",
+      "limits": [
+        {
+          "kind": "year",
+          "days": 180
+        }
+      ],
+      "note": "A visa from a Bolivian mission is required; the stay may be extended up to 180 days in a single year (initial stay not stated).",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/bolivia",
+      "checked": "2026-10-08"
+    },
+    "BR": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        },
+        {
+          "kind": "year",
+          "days": 180
+        }
+      ],
+      "note": "Visa-free for up to 90 days, extendable by 90, but no more than 180 days per year counted from first entry; work is not allowed.",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/brazil",
+      "checked": "2026-10-08"
+    },
+    "BT": {
+      "req": "required",
+      "limits": [],
+      "passportDays": 180,
+      "note": "A visa is required and is arranged through a registered Bhutanese tour agency; no stay length stated.",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/bhutan",
+      "checked": "2026-10-08"
+    },
+    "BW": {
+      "req": "required",
+      "limits": [],
+      "passportDays": 180,
+      "note": "A visa is required; the Serbian page states no length of stay.",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/botswana",
+      "checked": "2026-10-08"
+    },
+    "BY": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 30
+        },
+        {
+          "kind": "year",
+          "days": 90
+        }
+      ],
+      "note": "Visa-free for up to 30 days per stay and 90 days per calendar year; longer stays need a visa.",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/belarus",
+      "checked": "2026-10-08"
+    },
+    "BZ": {
+      "req": "required",
+      "limits": [],
+      "note": "A visa is required; the Serbian page states no length of stay.",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/belize",
+      "checked": "2026-10-08"
+    },
     "NP": {
       "req": "arrival",
       "limits": [
@@ -172,5 +274,6 @@
       "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/turkey",
       "checked": "2026-10-07"
     }
-  }
+  },
+  "_comment": "Hand-checked rules that replace the passport-index defaults. Key: passport ISO code, then destination ISO code (or SCHENGEN). Every entry needs src (official page) and checked (YYYY-MM-DD). The twice-yearly routine extends this to every destination."
 }
