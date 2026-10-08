@@ -1,0 +1,397 @@
+{
+ "country": "GB",
+ "types": [
+  {
+   "id": "ETA",
+   "name": "Electronic Travel Authorisation (ETA)",
+   "category": "tourist",
+   "purpose": "Visit for tourism, family, business or short study without a visa — for nationalities that do not need a visa.",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 180
+    }
+   ],
+   "maxValidity": "2 years (or until the passport expires)",
+   "entries": "multiple",
+   "approx": true,
+   "note": "Not a visa. Up to 6 months per visit.",
+   "src": "https://www.gov.uk/eta",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "VISITOR",
+   "name": "Standard Visitor visa",
+   "category": "tourist",
+   "purpose": "Tourism, visiting family, business meetings, short courses up to 6 months, medical treatment, academic visits.",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 180
+    }
+   ],
+   "maxValidity": "6 months, or long-term 2, 5 or 10 years",
+   "entries": "multiple",
+   "approx": true,
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "note": "At most 6 months on each visit, even with a long-term visa. You must not live in the UK through frequent visits.",
+   "src": "https://www.gov.uk/standard-visitor",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "MARRIAGE",
+   "name": "Marriage Visitor visa",
+   "category": "family",
+   "purpose": "Getting married or registering a civil partnership in the UK (not living there afterwards).",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 180
+    }
+   ],
+   "maxValidity": "6 months",
+   "approx": true,
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/marriage-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "PPE",
+   "name": "Permitted Paid Engagement visa",
+   "category": "business",
+   "purpose": "Paid work for up to 1 month by invitation: lectures, examining, performing, sports events, professional services.",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 31
+    }
+   ],
+   "maxValidity": "1 month",
+   "approx": true,
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/permitted-paid-engagement-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "TRANSIT",
+   "name": "Visitor in Transit visa",
+   "category": "transit",
+   "purpose": "Passing through UK border control and leaving the UK within 48 hours.",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 2
+    }
+   ],
+   "maxValidity": "Single transit",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "note": "You must leave within 48 hours. Staying longer needs a Standard Visitor visa.",
+   "src": "https://www.gov.uk/transit-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "DATV",
+   "name": "Direct Airside Transit visa",
+   "category": "transit",
+   "purpose": "Changing flights without going through UK border control — for nationalities that need it.",
+   "limits": [],
+   "maxValidity": "Single transit",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "note": "Does not allow entry into the UK.",
+   "src": "https://www.gov.uk/transit-visa/airside-transit-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "STUDENT",
+   "name": "Student visa",
+   "category": "student",
+   "purpose": "Study a course at a licensed university, college or school (age 16 or over).",
+   "limits": [],
+   "maxValidity": "Length of the course plus a few months",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/student-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "CHILDSTUDENT",
+   "name": "Child Student visa",
+   "category": "student",
+   "purpose": "Children aged 4–17 studying at an independent school in the UK.",
+   "limits": [],
+   "maxValidity": "Length of the course plus a few months",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/child-study-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "SHORTSTUDY",
+   "name": "Short-term study visa (English language)",
+   "category": "student",
+   "purpose": "English language courses of 6 to 11 months.",
+   "limits": [],
+   "maxValidity": "Up to 11 months",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/study-visit-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "GRADUATE",
+   "name": "Graduate visa",
+   "category": "work",
+   "purpose": "Stay and work after successfully finishing a UK degree.",
+   "limits": [],
+   "maxValidity": "2 years (18 months if you apply from 1 January 2027); 3 years after a PhD",
+   "src": "https://www.gov.uk/graduate-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "SKILLED",
+   "name": "Skilled Worker visa",
+   "category": "work",
+   "purpose": "A job with an approved UK employer (sponsor) at the required skill and salary level; family can join.",
+   "limits": [],
+   "maxValidity": "Up to 5 years, then extend or settle",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/skilled-worker-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "HEALTHCARE",
+   "name": "Health and Care Worker visa",
+   "category": "work",
+   "purpose": "Doctors, nurses, health and adult social care professionals working for the NHS or approved employers.",
+   "limits": [],
+   "maxValidity": "Up to 5 years",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/health-care-worker-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "GLOBALTALENT",
+   "name": "Global Talent visa",
+   "category": "work",
+   "purpose": "Leaders or potential leaders in academia, research, arts and culture or digital technology.",
+   "limits": [],
+   "maxValidity": "Up to 5 years at a time",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/global-talent",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "HPI",
+   "name": "High Potential Individual visa",
+   "category": "work",
+   "purpose": "Recent graduates of top world universities, no job offer needed.",
+   "limits": [],
+   "maxValidity": "2 years (3 years with a PhD)",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/high-potential-individual-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "SCALEUP",
+   "name": "Scale-up Worker visa",
+   "category": "work",
+   "purpose": "A highly skilled job with a fast-growing UK business.",
+   "limits": [],
+   "maxValidity": "2 years, extendable",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/scale-up-worker-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "INNOVATOR",
+   "name": "Innovator Founder visa",
+   "category": "business",
+   "purpose": "Setting up an innovative, endorsed business in the UK.",
+   "limits": [],
+   "maxValidity": "3 years, extendable",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/innovator-founder-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "YOUTH",
+   "name": "Youth Mobility Scheme visa",
+   "category": "work",
+   "purpose": "Live and work for up to 2 years — aged 18–30 (35 for some countries) from participating countries.",
+   "limits": [],
+   "maxValidity": "Up to 24 months",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/youth-mobility",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "SEASONAL",
+   "name": "Seasonal Worker visa",
+   "category": "work",
+   "purpose": "Seasonal horticulture or poultry work.",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 183,
+     "window": 365
+    }
+   ],
+   "maxValidity": "Up to 6 months (horticulture) or 2 Oct–31 Dec (poultry)",
+   "approx": true,
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "note": "At most 6 months in any 12-month period.",
+   "src": "https://www.gov.uk/seasonal-worker-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "CREATIVE",
+   "name": "Creative Worker visa",
+   "category": "work",
+   "purpose": "Short-term work in the creative industry: actors, musicians, dancers, film crew.",
+   "limits": [],
+   "maxValidity": "Up to 12 months",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/creative-worker-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "CHARITY",
+   "name": "Charity Worker visa",
+   "category": "work",
+   "purpose": "Unpaid voluntary work for a licensed charity.",
+   "limits": [],
+   "maxValidity": "Up to 12 months",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/temporary-worker-charity-worker-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "RELIGIOUS",
+   "name": "Religious Worker visa",
+   "category": "work",
+   "purpose": "Temporary religious work, such as preaching or working in a religious order.",
+   "limits": [],
+   "maxValidity": "Up to 2 years",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/religious-worker-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "MINISTER",
+   "name": "Minister of Religion visa",
+   "category": "work",
+   "purpose": "A job as a minister, missionary or member of a religious order.",
+   "limits": [],
+   "maxValidity": "Up to 3 years, extendable",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/minister-of-religion-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "GAE",
+   "name": "Government Authorised Exchange visa",
+   "category": "work",
+   "purpose": "Work experience, training, research or fellowships through an approved exchange scheme.",
+   "limits": [],
+   "maxValidity": "Up to 12 or 24 months depending on the scheme",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/government-authorised-exchange",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "INTLAGREEMENT",
+   "name": "International Agreement visa",
+   "category": "work",
+   "purpose": "Work covered by international law: private servants of diplomats, employees of overseas governments or international organisations.",
+   "limits": [],
+   "maxValidity": "Up to 2 years",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/international-agreement-worker-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "SPORTSPERSON",
+   "name": "Sportsperson visa",
+   "category": "work",
+   "purpose": "Elite sportspeople and qualified coaches.",
+   "limits": [],
+   "maxValidity": "Up to 3 years (longer as a sponsored sportsperson)",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/sportsperson-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "SENIORSPECIALIST",
+   "name": "Global Business Mobility visas",
+   "category": "work",
+   "purpose": "Moving to a UK branch of your employer: Senior or Specialist Worker, Graduate Trainee, UK Expansion Worker, Service Supplier, Secondment Worker.",
+   "limits": [],
+   "maxValidity": "Up to 1–5 years depending on the route",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/senior-specialist-worker-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "DOMESTIC",
+   "name": "Overseas Domestic Worker visa",
+   "category": "work",
+   "purpose": "Domestic workers coming with their employer to a private household in the UK.",
+   "limits": [],
+   "maxValidity": "Up to 6 months",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/domestic-workers-in-a-private-household-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "FRONTIER",
+   "name": "Frontier Worker permit",
+   "category": "work",
+   "purpose": "EU, EEA or Swiss citizens living outside the UK who have worked in the UK since before 2021.",
+   "limits": [],
+   "maxValidity": "5 years (2 years with retained status)",
+   "src": "https://www.gov.uk/frontier-worker-permit",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "FAMILY",
+   "name": "Family visa",
+   "category": "family",
+   "purpose": "Living with a partner, parent or child who is British, settled in the UK or has refugee status.",
+   "limits": [],
+   "maxValidity": "2 years 9 months, extendable, leads to settlement",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/uk-family-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "ANCESTRY",
+   "name": "UK Ancestry visa",
+   "category": "family",
+   "purpose": "Commonwealth citizens with a grandparent born in the UK who want to work there.",
+   "limits": [],
+   "maxValidity": "5 years, leads to settlement",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/ancestry-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "BNO",
+   "name": "British National (Overseas) visa",
+   "category": "residence",
+   "purpose": "British Nationals (Overseas) from Hong Kong and their family.",
+   "limits": [],
+   "maxValidity": "2 years 6 months or 5 years",
+   "apply": "https://www.gov.uk/apply-to-come-to-the-uk",
+   "src": "https://www.gov.uk/british-national-overseas-bno-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "SETTLEMENT",
+   "name": "Indefinite leave to remain (settlement)",
+   "category": "immigrant",
+   "purpose": "Living in the UK permanently after a qualifying period on another visa.",
+   "limits": [],
+   "maxValidity": "Permanent",
+   "note": "No day count. Absences of more than 2 years can end your settled status.",
+   "src": "https://www.gov.uk/settle-in-the-uk",
+   "checked": "2026-10-08"
+  }
+ ]
+}

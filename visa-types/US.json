@@ -1,0 +1,379 @@
+{
+ "country": "US",
+ "types": [
+  {
+   "id": "ESTA",
+   "name": "ESTA — Visa Waiver Program",
+   "category": "tourist",
+   "purpose": "Visit for tourism, business or transit without a visa — only for Visa Waiver Program nationalities.",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 90
+    }
+   ],
+   "maxValidity": "2 years (or until the passport expires)",
+   "entries": "multiple",
+   "note": "Not a visa. At most 90 days per visit, no extension and no change of status.",
+   "src": "https://www.cbp.gov/travel/international-visitors/esta",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "B1B2",
+   "name": "B-1/B-2 Visitor visa",
+   "category": "tourist",
+   "purpose": "Tourism, visiting family, medical treatment (B-2) or business meetings, conferences, negotiations (B-1).",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 180
+    }
+   ],
+   "maxValidity": "Up to 10 years — depends on your nationality",
+   "entries": "multiple",
+   "approx": true,
+   "apply": "https://ceac.state.gov/genniv/",
+   "note": "The visa only lets you travel to the border. CBP sets how long you may stay on your I-94, usually 6 months (by law up to 1 year). Your I-94 date is what counts.",
+   "src": "https://www.uscis.gov/working-in-the-united-states/temporary-visitors-for-business",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "C1",
+   "name": "C-1 / C-1/D Transit visa",
+   "category": "transit",
+   "purpose": "Passing through the United States to another country, or joining a ship or aircraft as crew.",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 29
+    }
+   ],
+   "maxValidity": "Depends on your nationality",
+   "apply": "https://ceac.state.gov/genniv/",
+   "note": "Transit admissions are limited to 29 days by law (8 CFR 214.2(c)).",
+   "src": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/all-visa-categories.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "D",
+   "name": "D Crewmember visa",
+   "category": "work",
+   "purpose": "Crew on a ship or aircraft arriving in the United States.",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 29
+    }
+   ],
+   "maxValidity": "Depends on your nationality",
+   "apply": "https://ceac.state.gov/genniv/",
+   "note": "Crew shore leave (landing permit) is limited to 29 days.",
+   "src": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/all-visa-categories.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "F1",
+   "name": "F-1 / F-2 Academic student",
+   "category": "student",
+   "purpose": "Full-time study at a university, college, high school or language school; F-2 for spouse and children.",
+   "limits": [],
+   "maxValidity": "Depends on your nationality; the stay lasts as long as your studies (D/S)",
+   "entries": "multiple",
+   "apply": "https://ceac.state.gov/genniv/",
+   "note": "Admitted for \"duration of status\" — as long as you study as shown on your I-20, plus 60 days.",
+   "src": "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "M1",
+   "name": "M-1 / M-2 Vocational student",
+   "category": "student",
+   "purpose": "Vocational or other non-academic study (e.g. technical schools, flight schools).",
+   "limits": [],
+   "maxValidity": "Up to 1 year at a time",
+   "apply": "https://ceac.state.gov/genniv/",
+   "note": "Admitted for the length of the program, at most 1 year at a time, plus 30 days.",
+   "src": "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "J1",
+   "name": "J-1 / J-2 Exchange visitor",
+   "category": "student",
+   "purpose": "Exchange programs: research scholars, interns, au pairs, summer work-travel, teachers, physicians; J-2 for family.",
+   "limits": [],
+   "maxValidity": "Depends on your nationality; the stay lasts as long as your program (D/S)",
+   "apply": "https://ceac.state.gov/genniv/",
+   "note": "Admitted for the program dates on your DS-2019, plus 30 days. Some J-1s must spend 2 years at home afterwards.",
+   "src": "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "H1B",
+   "name": "H-1B / H-4 Specialty occupation",
+   "category": "work",
+   "purpose": "Work requiring a university degree, sponsored by a US employer; H-4 for spouse and children.",
+   "limits": [],
+   "maxValidity": "Up to 3 years, extendable to 6 years",
+   "apply": "https://ceac.state.gov/genniv/",
+   "note": "The stay is set by the approved petition (I-797) and your I-94, not by a day count.",
+   "src": "https://www.uscis.gov/working-in-the-united-states/h-1b-specialty-occupations",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "H1B1",
+   "name": "H-1B1 Specialty occupation (Chile, Singapore)",
+   "category": "work",
+   "purpose": "Degree-level work for citizens of Chile or Singapore.",
+   "limits": [],
+   "maxValidity": "Up to 18 months, renewable",
+   "apply": "https://ceac.state.gov/genniv/",
+   "src": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/all-visa-categories.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "H2A",
+   "name": "H-2A Temporary agricultural worker",
+   "category": "work",
+   "purpose": "Seasonal or temporary farm work for a US employer.",
+   "limits": [],
+   "maxValidity": "Up to 1 year, at most 3 years in total",
+   "apply": "https://ceac.state.gov/genniv/",
+   "src": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2a-temporary-agricultural-workers",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "H2B",
+   "name": "H-2B Temporary non-agricultural worker",
+   "category": "work",
+   "purpose": "Seasonal or peak-load work outside agriculture (hotels, construction, landscaping…).",
+   "limits": [],
+   "maxValidity": "Up to 1 year, at most 3 years in total",
+   "apply": "https://ceac.state.gov/genniv/",
+   "src": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2b-temporary-non-agricultural-workers",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "H3",
+   "name": "H-3 Trainee or special education visitor",
+   "category": "work",
+   "purpose": "Training not available at home (not graduate medical training), or special-education exchange.",
+   "limits": [],
+   "maxValidity": "Up to 2 years (18 months for special education)",
+   "apply": "https://ceac.state.gov/genniv/",
+   "src": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-3-nonimmigrant-trainee-or-special-education-exchange-visitor",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "L1",
+   "name": "L-1 / L-2 Intracompany transferee",
+   "category": "work",
+   "purpose": "Managers, executives (L-1A) or specialists (L-1B) moving to a US office of the same company; L-2 for family.",
+   "limits": [],
+   "maxValidity": "L-1A up to 7 years, L-1B up to 5 years in total",
+   "apply": "https://ceac.state.gov/genniv/",
+   "src": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/l-1a-intracompany-transferee-executive-or-manager",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "O1",
+   "name": "O-1 / O-2 / O-3 Extraordinary ability",
+   "category": "work",
+   "purpose": "Extraordinary ability or achievement in science, arts, education, business, athletics, film or TV; O-2 support staff, O-3 family.",
+   "limits": [],
+   "maxValidity": "Up to 3 years, extendable 1 year at a time",
+   "apply": "https://ceac.state.gov/genniv/",
+   "src": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/o-1-visa-individuals-with-extraordinary-ability-or-achievement",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "P1",
+   "name": "P-1 Athlete or entertainment group",
+   "category": "work",
+   "purpose": "Internationally recognised athletes, teams and entertainment groups (P-1A / P-1B).",
+   "limits": [],
+   "maxValidity": "Up to 5 years for athletes; for the event for groups",
+   "apply": "https://ceac.state.gov/genniv/",
+   "src": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/p-1a-athlete",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "P2P3",
+   "name": "P-2 / P-3 / P-4 Artists and entertainers",
+   "category": "work",
+   "purpose": "Performers in a reciprocal exchange (P-2) or a culturally unique program (P-3); P-4 for family.",
+   "limits": [],
+   "maxValidity": "Up to 1 year",
+   "apply": "https://ceac.state.gov/genniv/",
+   "src": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/p-3-artist-or-entertainer-coming-to-be-part-of-a-culturally-unique-program",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "Q1",
+   "name": "Q-1 International cultural exchange",
+   "category": "work",
+   "purpose": "Sharing your country's culture through a work-and-training program (e.g. theme parks).",
+   "limits": [],
+   "maxValidity": "Up to 15 months",
+   "apply": "https://ceac.state.gov/genniv/",
+   "src": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/q-cultural-exchange",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "R1",
+   "name": "R-1 / R-2 Religious worker",
+   "category": "work",
+   "purpose": "Ministers and religious workers of a recognised religious organisation; R-2 for family.",
+   "limits": [],
+   "maxValidity": "Up to 30 months, at most 5 years in total",
+   "apply": "https://ceac.state.gov/genniv/",
+   "src": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/r-1-nonimmigrant-religious-workers",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "E1E2",
+   "name": "E-1 / E-2 Treaty trader or investor",
+   "category": "business",
+   "purpose": "Substantial trade with, or investment in, the United States by citizens of treaty countries; family included.",
+   "limits": [],
+   "maxValidity": "Depends on your nationality; each admission up to 2 years, renewable",
+   "apply": "https://ceac.state.gov/genniv/",
+   "note": "Only for nationalities with a US treaty of commerce.",
+   "src": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/e-2-treaty-investors",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "E3",
+   "name": "E-3 Specialty occupation (Australia)",
+   "category": "work",
+   "purpose": "Degree-level work for Australian citizens; family included.",
+   "limits": [],
+   "maxValidity": "Up to 2 years, renewable",
+   "apply": "https://ceac.state.gov/genniv/",
+   "src": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/e-3-specialty-occupation-workers-from-australia",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "TN",
+   "name": "TN / TD USMCA professional",
+   "category": "work",
+   "purpose": "Professionals from Canada or Mexico in listed occupations; TD for family.",
+   "limits": [],
+   "maxValidity": "Up to 3 years, renewable",
+   "apply": "https://ceac.state.gov/genniv/",
+   "src": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/tn-usmca-professionals",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "I",
+   "name": "I Foreign media representative",
+   "category": "work",
+   "purpose": "Journalists, film crews and other foreign media working in the United States.",
+   "limits": [],
+   "maxValidity": "For the length of the assignment",
+   "apply": "https://ceac.state.gov/genniv/",
+   "src": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/i-representatives-of-foreign-media",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "CW1",
+   "name": "CW-1 / E-2C Northern Mariana Islands",
+   "category": "work",
+   "purpose": "Transitional workers (CW-1) and investors (E-2C) for the Northern Mariana Islands only.",
+   "limits": [],
+   "maxValidity": "Up to 1–3 years",
+   "apply": "https://ceac.state.gov/genniv/",
+   "src": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/cw-1-cnmi-only-transitional-worker",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "K1",
+   "name": "K-1 / K-2 Fiancé(e) visa",
+   "category": "family",
+   "purpose": "Fiancé(e) of a US citizen travelling to marry in the United States; K-2 for their children.",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 90
+    }
+   ],
+   "maxValidity": "Up to 6 months, single entry",
+   "entries": "single",
+   "note": "You must marry within 90 days of entry, then apply for a green card; the stay cannot be extended.",
+   "src": "https://www.uscis.gov/family/family-of-us-citizens/visas-for-fiancees-of-us-citizens",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "K3V",
+   "name": "K-3 / K-4 / V Family awaiting a green card",
+   "category": "family",
+   "purpose": "Spouse or children of a US citizen (K-3/K-4) or of a permanent resident (V) waiting for an immigrant visa.",
+   "limits": [],
+   "maxValidity": "Up to 2 years",
+   "apply": "https://ceac.state.gov/genniv/",
+   "src": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/all-visa-categories.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "A",
+   "name": "A-1 / A-2 / A-3 Diplomats and government officials",
+   "category": "other",
+   "purpose": "Diplomats and foreign government officials on official duty, their family and staff.",
+   "limits": [],
+   "maxValidity": "For the length of the posting",
+   "src": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/all-visa-categories.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "G",
+   "name": "G-1 to G-5 International organisations",
+   "category": "other",
+   "purpose": "Staff of international organisations (e.g. UN, World Bank, IMF), their family and staff.",
+   "limits": [],
+   "maxValidity": "For the length of the assignment",
+   "src": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/all-visa-categories.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "NATO",
+   "name": "NATO-1 to NATO-7",
+   "category": "other",
+   "purpose": "Representatives and staff of NATO and their family.",
+   "limits": [],
+   "maxValidity": "For the length of the assignment",
+   "src": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/all-visa-categories.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "TU",
+   "name": "T / U Victims of trafficking or crime",
+   "category": "other",
+   "purpose": "Victims of human trafficking (T) or of certain crimes (U) who help law enforcement; family included.",
+   "limits": [],
+   "maxValidity": "Up to 4 years",
+   "src": "https://www.uscis.gov/humanitarian/victims-of-human-trafficking-and-other-crimes",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "S",
+   "name": "S Witness or informant",
+   "category": "other",
+   "purpose": "People providing critical information about a criminal or terrorist organisation, requested by US law enforcement.",
+   "limits": [],
+   "maxValidity": "Up to 3 years",
+   "src": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/all-visa-categories.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "IMMIGRANT",
+   "name": "Immigrant visa / Green card",
+   "category": "immigrant",
+   "purpose": "Living permanently in the United States — through family, employment, the Diversity Visa lottery or other categories.",
+   "limits": [],
+   "maxValidity": "Permanent residence (card renewed every 10 years)",
+   "note": "No day count: you live in the United States. Long absences abroad can put the green card at risk.",
+   "src": "https://www.uscis.gov/green-card",
+   "checked": "2026-10-08"
+  }
+ ]
+}

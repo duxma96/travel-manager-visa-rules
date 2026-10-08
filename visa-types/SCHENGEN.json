@@ -1,0 +1,110 @@
+{
+ "country": "SCHENGEN",
+ "types": [
+  {
+   "id": "VISAFREE",
+   "name": "Visa-free short stay",
+   "category": "tourist",
+   "purpose": "Short stays for nationalities that do not need a Schengen visa (e.g. Serbia, the US, the UK).",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "entries": "multiple",
+   "note": "At most 90 days in any 180-day period across all Schengen countries. Entries and exits are recorded by the Entry/Exit System (EES).",
+   "src": "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "ETIAS",
+   "name": "ETIAS travel authorisation",
+   "category": "tourist",
+   "purpose": "Online authorisation that visa-free travellers will need before a short stay.",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "maxValidity": "3 years (or until the passport expires)",
+   "entries": "multiple",
+   "note": "Not in operation yet — the EU says it starts in the last quarter of 2026. Not a visa; the 90/180 rule still applies.",
+   "src": "https://travel-europe.europa.eu/etias/about-etias/what-is-etias",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "C",
+   "name": "Uniform Schengen visa (type C)",
+   "category": "tourist",
+   "purpose": "Short stays for tourism, business, family visits or events in the Schengen area.",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "maxValidity": "Up to 5 years (multiple entry, issued step by step)",
+   "entries": "varies",
+   "note": "Never more than 90 days in any 180-day period, whatever the visa validity says.",
+   "src": "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy/applying-schengen-visa_en",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "LTV",
+   "name": "Visa with limited territorial validity (LTV)",
+   "category": "other",
+   "purpose": "Exceptional short-stay visa valid only for the Schengen country (or countries) named on it.",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "entries": "varies",
+   "note": "Valid only in the countries printed on the visa sticker.",
+   "src": "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "A",
+   "name": "Airport transit visa (type A)",
+   "category": "transit",
+   "purpose": "Changing planes in the international zone of a Schengen airport — for nationalities that need it.",
+   "limits": [],
+   "entries": "varies",
+   "note": "Does not allow entry into the Schengen area.",
+   "src": "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "D",
+   "name": "National long-stay visa (type D)",
+   "category": "other",
+   "purpose": "Stays over 90 days in one Schengen country (study, work, family), issued by that country under its own rules.",
+   "limits": [],
+   "maxValidity": "Up to 1 year",
+   "entries": "multiple",
+   "approx": true,
+   "note": "Also allows up to 90 days in any 180 in the other Schengen countries while valid. Rules differ per issuing country.",
+   "src": "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "RESIDENCE",
+   "name": "Residence permit of a Schengen country",
+   "category": "residence",
+   "purpose": "Living in a Schengen country (work, study, family, long-term residence, EU Blue Card).",
+   "limits": [],
+   "maxValidity": "Depends on the permit",
+   "note": "No day count in the issuing country; up to 90 days in any 180 in the other Schengen countries.",
+   "src": "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en",
+   "checked": "2026-10-08"
+  }
+ ]
+}
