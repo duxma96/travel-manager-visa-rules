@@ -46,5 +46,5 @@ for (const f of readdirSync('visa-types').filter((f) => f.endsWith('.json')).sor
 }
 
 const generated = new Date().toISOString().slice(0, 10);
-writeFileSync('visa-types.json', JSON.stringify({ format: 'tm-visa-types', version: 1, generated, source: 'Official immigration and consular sites; reviewed in pull requests', countries }, null, 1));
+writeFileSync('visa-types.json', JSON.stringify({ format: 'tm-visa-types', version: 1, generated, source: 'Official immigration and consular sites; reviewed in pull requests', countries }));
 console.log(`visa-types.json: ${Object.keys(countries).length} destinations, ${types} visa types`);
