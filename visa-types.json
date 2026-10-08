@@ -1308,6 +1308,364 @@
     "checked": "2026-10-08"
    }
   ],
+  "JP": [
+   {
+    "id": "EXEMPT",
+    "name": "Visa exemption (short-term stay)",
+    "category": "tourist",
+    "purpose": "Tourism, business meetings or visiting relatives without a visa — for visa-exempt nationalities.",
+    "limits": [
+     {
+      "kind": "stay",
+      "days": 90
+     }
+    ],
+    "entries": "multiple",
+    "approx": true,
+    "note": "Usually up to 90 days per stay (15 or 30 days for some nationalities). No paid work.",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SHORT",
+    "name": "Temporary Visitor visa (short-term stay)",
+    "category": "tourist",
+    "purpose": "Tourism, business meetings, conferences or visiting relatives, for nationalities that need a visa.",
+    "limits": [
+     {
+      "kind": "stay",
+      "days": 90
+     }
+    ],
+    "maxValidity": "Single entry 3 months; multiple-entry up to 5 years for some nationalities",
+    "entries": "varies",
+    "approx": true,
+    "note": "The period of stay (15, 30 or 90 days) is set when you land and stamped in your passport.",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/process/short.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "EVISA",
+    "name": "JAPAN eVISA (short-term stay)",
+    "category": "tourist",
+    "purpose": "Online single-entry short-term visa for residents of eligible countries.",
+    "limits": [
+     {
+      "kind": "stay",
+      "days": 90
+     }
+    ],
+    "maxValidity": "3 months, single entry",
+    "entries": "single",
+    "approx": true,
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/visaonline.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "MEDICAL",
+    "name": "Visa for Medical Stay",
+    "category": "tourist",
+    "purpose": "Medical treatment in Japan, and accompanying persons.",
+    "limits": [],
+    "maxValidity": "Up to 3 years (multiple entry)",
+    "approx": true,
+    "note": "Each stay up to 90 days, or 6 months to 1 year when hospitalisation is needed.",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/medical_stay.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "WORKINGHOLIDAY",
+    "name": "Working Holiday",
+    "category": "work",
+    "purpose": "Holiday with short-term work for young people (usually 18–30) from partner countries.",
+    "limits": [],
+    "maxValidity": "Up to 1 year",
+    "src": "https://www.mofa.go.jp/j_info/visit/w_holiday/index.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "HSP",
+    "name": "Highly Skilled Professional (incl. J-Skip)",
+    "category": "work",
+    "purpose": "Highly skilled researchers, engineers and business managers scoring enough points, or meeting J-Skip income/education thresholds.",
+    "limits": [],
+    "maxValidity": "5 years (type i); unlimited (type ii)",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa16.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "PROFESSOR",
+    "name": "Professor",
+    "category": "work",
+    "purpose": "Research or teaching at a Japanese university.",
+    "limits": [],
+    "maxValidity": "Up to 5 years (granted as 3 months, 1, 3 or 5 years), renewable",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa1.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "ARTIST",
+    "name": "Artist",
+    "category": "work",
+    "purpose": "Artistic activities that bring income (composers, painters, writers…).",
+    "limits": [],
+    "maxValidity": "Up to 5 years (granted as 3 months, 1, 3 or 5 years), renewable",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa1.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "RELIGIOUS",
+    "name": "Religious activities",
+    "category": "work",
+    "purpose": "Missionary or religious work sent by a foreign religious organisation.",
+    "limits": [],
+    "maxValidity": "Up to 5 years (granted as 3 months, 1, 3 or 5 years), renewable",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa1.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "JOURNALIST",
+    "name": "Journalist",
+    "category": "work",
+    "purpose": "Reporting for a foreign news organisation.",
+    "limits": [],
+    "maxValidity": "Up to 5 years (granted as 3 months, 1, 3 or 5 years), renewable",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa1.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "BUSINESSMANAGER",
+    "name": "Business manager",
+    "category": "business",
+    "purpose": "Starting, running or managing a business in Japan.",
+    "limits": [],
+    "maxValidity": "Up to 5 years (granted as 3 months, 1, 3 or 5 years), renewable",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa1.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "LEGAL",
+    "name": "Legal / Accounting services",
+    "category": "work",
+    "purpose": "Lawyers, accountants and other licensed legal or accounting professionals.",
+    "limits": [],
+    "maxValidity": "Up to 5 years (granted as 3 months, 1, 3 or 5 years), renewable",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa1.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "MEDICALSERVICES",
+    "name": "Medical services",
+    "category": "work",
+    "purpose": "Doctors, dentists, nurses and other licensed medical professionals.",
+    "limits": [],
+    "maxValidity": "Up to 5 years (granted as 3 months, 1, 3 or 5 years), renewable",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa1.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "RESEARCHER",
+    "name": "Researcher",
+    "category": "work",
+    "purpose": "Research under a contract with a public or private organisation in Japan.",
+    "limits": [],
+    "maxValidity": "Up to 5 years (granted as 3 months, 1, 3 or 5 years), renewable",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa1.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "INSTRUCTOR",
+    "name": "Instructor",
+    "category": "work",
+    "purpose": "Language or other teaching at elementary, junior high or high schools.",
+    "limits": [],
+    "maxValidity": "Up to 5 years (granted as 3 months, 1, 3 or 5 years), renewable",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa1.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "ENGINEER",
+    "name": "Engineer / Specialist in Humanities / International Services",
+    "category": "work",
+    "purpose": "Engineers, IT, interpreters, designers, marketing and other office professionals.",
+    "limits": [],
+    "maxValidity": "Up to 5 years (granted as 3 months, 1, 3 or 5 years), renewable",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa1.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "NURSINGCARE",
+    "name": "Nursing care",
+    "category": "work",
+    "purpose": "Certified care workers working in nursing care.",
+    "limits": [],
+    "maxValidity": "Up to 5 years (granted as 3 months, 1, 3 or 5 years), renewable",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa1.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "ICT",
+    "name": "Intra-company transferee",
+    "category": "work",
+    "purpose": "Transfer to a Japanese office of your employer.",
+    "limits": [],
+    "maxValidity": "Up to 5 years (granted as 3 months, 1, 3 or 5 years), renewable",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa2.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "ENTERTAINER",
+    "name": "Entertainer",
+    "category": "work",
+    "purpose": "Performing in theatre, music, sports or entertainment.",
+    "limits": [],
+    "maxValidity": "Up to 3 years",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa3.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SKILLEDLABOR",
+    "name": "Skilled labor",
+    "category": "work",
+    "purpose": "Work needing special skills: chefs of foreign cuisine, sports trainers, pilots, sommeliers…",
+    "limits": [],
+    "maxValidity": "Up to 5 years (granted as 3 months, 1, 3 or 5 years), renewable",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa4.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SSW",
+    "name": "Specified Skilled Worker (i) / (ii)",
+    "category": "work",
+    "purpose": "Work in sectors with labour shortages (care, construction, food service, manufacturing, agriculture…) after skills and Japanese tests.",
+    "limits": [],
+    "maxValidity": "(i) up to 5 years in total; (ii) renewable without limit, family can join",
+    "src": "https://www.mofa.go.jp/mofaj/ca/fna/ssw/us/index.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "TECHNICALINTERN",
+    "name": "Technical intern training",
+    "category": "work",
+    "purpose": "On-the-job technical intern training programmes (being replaced by Employment for Skill Development).",
+    "limits": [],
+    "maxValidity": "Up to 1–2 years per stage, at most 5 years",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa17.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "CULTURAL",
+    "name": "Cultural activities",
+    "category": "other",
+    "purpose": "Unpaid study of Japanese culture or arts, such as tea ceremony or martial arts.",
+    "limits": [],
+    "maxValidity": "Up to 3 years",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa5.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "STUDENT",
+    "name": "Student",
+    "category": "student",
+    "purpose": "Study at a university, college, high school or Japanese language school.",
+    "limits": [],
+    "maxValidity": "Up to 4 years 3 months",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa6.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "TRAINING",
+    "name": "Training",
+    "category": "other",
+    "purpose": "Learning skills at a public or private organisation (not technical intern training).",
+    "limits": [],
+    "maxValidity": "Up to 1 year",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa8.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "DEPENDENT",
+    "name": "Dependent (family stay)",
+    "category": "family",
+    "purpose": "Spouse or children of a foreign resident working or studying in Japan.",
+    "limits": [],
+    "maxValidity": "Up to 5 years",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa9.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SPOUSEJP",
+    "name": "Spouse or child of Japanese national",
+    "category": "family",
+    "purpose": "Spouse, or biological or specially adopted child, of a Japanese national.",
+    "limits": [],
+    "maxValidity": "Up to 5 years",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa10.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SPOUSEPR",
+    "name": "Spouse or child of permanent resident",
+    "category": "family",
+    "purpose": "Spouse or child born in Japan of a permanent resident.",
+    "limits": [],
+    "maxValidity": "Up to 5 years",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa11.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "LONGTERM",
+    "name": "Long-term resident",
+    "category": "residence",
+    "purpose": "People of Japanese descent and others granted residence for special reasons.",
+    "limits": [],
+    "maxValidity": "Up to 5 years or as designated",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa12.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "DESIGNATED",
+    "name": "Designated activities (incl. digital nomads)",
+    "category": "other",
+    "purpose": "Activities designated individually: e.g. digital nomads (up to 6 months), job-seeking graduates, interns, domestic workers of diplomats.",
+    "limits": [],
+    "maxValidity": "Up to 5 years or as designated",
+    "note": "The digital-nomad stay is limited to 6 months.",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa13.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "DIPLOMAT",
+    "name": "Diplomat",
+    "category": "other",
+    "purpose": "Diplomatic missions and their families.",
+    "limits": [],
+    "maxValidity": "For the duration of the mission",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa14.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "OFFICIAL",
+    "name": "Official",
+    "category": "other",
+    "purpose": "Officials of foreign governments or international organisations on official duty.",
+    "limits": [],
+    "maxValidity": "Up to 5 years",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/long/visa15.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "PR",
+    "name": "Permanent resident",
+    "category": "immigrant",
+    "purpose": "Living in Japan permanently, usually after 10 years of residence (shorter for highly skilled professionals and spouses).",
+    "limits": [],
+    "maxValidity": "Permanent",
+    "note": "No day count. Leave with a re-entry permit, or the status can lapse.",
+    "src": "https://www.mofa.go.jp/j_info/visit/visa/system/index.html",
+    "checked": "2026-10-08"
+   }
+  ],
   "SCHENGEN": [
    {
     "id": "VISAFREE",
