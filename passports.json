@@ -1,0 +1,10 @@
+{
+ "_comment": "Passports researched in depth (overrides.json). Each run of the routine checks how days count for every destination, for each passport here. To add one: someone opens an 'Add passport' issue from the app; the owner adds it here. Every other passport still gets the passport-index-data rules.",
+ "passports": [
+  {
+   "code": "RS",
+   "name": "Serbia",
+   "mfa": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/<country-name-in-lowercase-with-hyphens>"
+  }
+ ]
+}
