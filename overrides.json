@@ -1,16 +1,172 @@
 {
   "_comment": "Hand-checked rules that replace the passport-index defaults. Key: passport ISO code, then destination ISO code (or SCHENGEN). Every entry needs src (official page) and checked (YYYY-MM-DD). The twice-yearly routine extends this to every destination.",
   "RS": {
+    "AD": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "rolling",
+          "days": 90,
+          "window": 180
+        }
+      ],
+      "passportDays": 90,
+      "note": "Visa-free for up to 90 days in any 180; passport must stay valid at least 3 months after you leave Andorra.",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/andorra",
+      "checked": "2026-10-08"
+    },
+    "AE": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "passportDays": 180,
+      "note": "Visa-free for up to 90 days; for tourism the passport must have at least 6 months validity left.",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/united-arab-emirates",
+      "checked": "2026-10-08"
+    },
+    "AF": {
+      "req": "required",
+      "limits": [],
+      "note": "Visa required in advance from an Afghan mission; none on arrival; no stay length stated.",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/afghanistan",
+      "checked": "2026-10-08"
+    },
+    "AG": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "rolling",
+          "days": 90,
+          "window": 180
+        }
+      ],
+      "note": "No visa for visits of up to 90 days within 180 days.",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/antigua-and-barbuda",
+      "checked": "2026-10-08"
+    },
+    "AL": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "rolling",
+          "days": 90,
+          "window": 180
+        }
+      ],
+      "note": "Visa-free for 90 days within 180 days counted from first entry; ID card also accepted.",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/albanija",
+      "checked": "2026-10-08"
+    },
+    "AM": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "rolling",
+          "days": 180,
+          "window": 365
+        }
+      ],
+      "note": "Visa-free for up to 180 days within one year (read as 180 in any 365 days).",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/armenia",
+      "checked": "2026-10-08"
+    },
+    "AO": {
+      "req": "required",
+      "limits": [],
+      "passportDays": 180,
+      "note": "Visa required for ordinary passports; passport must be valid for more than 6 months; no stay length stated.",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/angola",
+      "checked": "2026-10-08"
+    },
+    "AR": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "rolling",
+          "days": 90,
+          "window": 180
+        }
+      ],
+      "note": "Page says both 3 months and 90 days for tourist stays; counted here as 90 in any 180 (stricter reading).",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/argentina",
+      "checked": "2026-10-08"
+    },
+    "AU": {
+      "req": "required",
+      "limits": [],
+      "note": "Visa required before travel; types and stay length are in the Australian visa finder.",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/australia",
+      "checked": "2026-10-08"
+    },
+    "AZ": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "Visa-free for up to 90 days; entry by air only because land borders are closed to Serbian citizens.",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/azerbaijan",
+      "checked": "2026-10-08"
+    },
+    "BA": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "No visa; up to 90 days counted from entry; ID card or passport accepted (children need a passport).",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/bosnia-and-herzegovina",
+      "checked": "2026-10-08"
+    },
+    "BB": {
+      "req": "free",
+      "limits": [
+        {
+          "kind": "stay",
+          "days": 90
+        }
+      ],
+      "note": "No visa for a stay of up to 90 days.",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/barbados",
+      "checked": "2026-10-08"
+    },
+    "BD": {
+      "req": "required",
+      "limits": [],
+      "passportDays": 180,
+      "note": "Visa required in advance (Serbian page names the Bangladesh embassy in Rome); passport valid 6 months; no stay length stated.",
+      "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/bangladesh",
+      "checked": "2026-10-08"
+    },
     "NP": {
       "req": "arrival",
-      "limits": [{ "kind": "year", "days": 150 }],
+      "limits": [
+        {
+          "kind": "year",
+          "days": 150
+        }
+      ],
       "note": "Tourist visa on arrival (15/30/90 days, extendable); at most 150 days per calendar year (January–December).",
       "src": "https://sa.nepalembassy.gov.np/pages/visa-4/",
       "checked": "2026-10-07"
     },
     "TR": {
       "req": "free",
-      "limits": [{ "kind": "rolling", "days": 90, "window": 180 }],
+      "limits": [
+        {
+          "kind": "rolling",
+          "days": 90,
+          "window": 180
+        }
+      ],
       "passportDays": 150,
       "note": "Up to 90 days in a period of 6 months counted from the first entry (counted here as 90 in any 180, the stricter reading). Passport valid 150 days from entry.",
       "src": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/turkey",
