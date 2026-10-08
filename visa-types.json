@@ -9,7 +9,7 @@
     "id": "VISAFREE",
     "name": "Visa on arrival / visa-free entry",
     "category": "tourist",
-    "purpose": "Nationalities eligible for entry without a pre-arranged visa (e.g. Serbia, the EU, the UK, the US).",
+    "purpose": "Nationalities eligible for entry without a pre-arranged visa.",
     "limits": [
      {
       "kind": "stay",
