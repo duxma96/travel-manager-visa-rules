@@ -6,6 +6,7 @@
    "name": "Visa on arrival / visa-free entry",
    "category": "tourist",
    "purpose": "Nationalities eligible for entry without a pre-arranged visa.",
+   "who": "Nationals of eligible countries",
    "limits": [
     {
      "kind": "stay",
@@ -22,6 +23,7 @@
    "name": "Tourist visa (30 or 60 days)",
    "category": "tourist",
    "purpose": "Tourism, single or multiple entry, sponsored by a hotel, airline or tour operator.",
+   "who": "Anyone",
    "limits": [
     {
      "kind": "stay",
@@ -39,6 +41,7 @@
    "name": "5-year multiple-entry tourist visa",
    "category": "tourist",
    "purpose": "Frequent tourists with sufficient funds; self-sponsored.",
+   "who": "Frequent tourists with sufficient funds",
    "limits": [
     {
      "kind": "stay",
@@ -57,6 +60,7 @@
    "name": "Visit visa (family, friends, job exploration, business)",
    "category": "tourist",
    "purpose": "Visiting relatives or friends, exploring jobs, business visits, attending events.",
+   "who": "Anyone",
    "limits": [
     {
      "kind": "stay",
@@ -74,6 +78,7 @@
    "name": "Transit visa",
    "category": "transit",
    "purpose": "Passing through the UAE on the way to another country.",
+   "who": "Transit passengers",
    "limits": [
     {
      "kind": "stay",
@@ -91,6 +96,7 @@
    "name": "Medical treatment entry permit",
    "category": "tourist",
    "purpose": "Patients coming for treatment in the UAE, and their companions.",
+   "who": "Patients and companions",
    "limits": [],
    "maxValidity": "Single entry",
    "approx": true,
@@ -102,6 +108,7 @@
    "name": "Work residence visa",
    "category": "work",
    "purpose": "Employment with a UAE company or government entity sponsoring you.",
+   "who": "Employees of a UAE company",
    "limits": [],
    "maxValidity": "2 years (3 years for some), renewable",
    "note": "No day count, but leaving for more than 6 months can cancel residence.",
@@ -113,6 +120,7 @@
    "name": "Student residence visa",
    "category": "student",
    "purpose": "Studying at a UAE university or school; outstanding students can get longer visas.",
+   "who": "Students at a UAE school or university",
    "limits": [],
    "maxValidity": "1 year, renewable (5 years for outstanding students)",
    "src": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/residence-visa-for-studying-in-the-uae",
@@ -123,6 +131,7 @@
    "name": "Family residence visa",
    "category": "family",
    "purpose": "Spouse, children and parents sponsored by a UAE resident.",
+   "who": "Family of UAE residents",
    "limits": [],
    "maxValidity": "Linked to the sponsor's residence",
    "src": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/Residence-visa/residence-visa-for-family-members",
@@ -133,6 +142,7 @@
    "name": "Retirement residence visa",
    "category": "residence",
    "purpose": "Residents aged 55 or over with savings, property or income above the thresholds.",
+   "who": "Residents aged 55+ meeting financial thresholds",
    "limits": [],
    "maxValidity": "5 years, renewable",
    "src": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/Residence-visa/residence-visa-for-the-retired",
@@ -143,6 +153,7 @@
    "name": "Remote work visa",
    "category": "work",
    "purpose": "Working for an employer outside the UAE while living in the UAE.",
+   "who": "Employees of foreign companies",
    "limits": [],
    "maxValidity": "1 year, renewable",
    "src": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/Residence-visa/residence-visa-for-working-outside-the-uae",
@@ -153,6 +164,7 @@
    "name": "Investor / partner residence visa",
    "category": "business",
    "purpose": "Investors and partners in a UAE company, and property owners.",
+   "who": "Investors, partners and property owners",
    "limits": [],
    "maxValidity": "2 or 3 years; golden visa for larger investments",
    "src": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/Investor-visa",
@@ -163,6 +175,7 @@
    "name": "Golden visa",
    "category": "residence",
    "purpose": "Long-term residence for investors, entrepreneurs, specialised talents, outstanding students and others; no sponsor needed.",
+   "who": "Investors, talents, entrepreneurs, top students",
    "limits": [],
    "maxValidity": "5 or 10 years, renewable",
    "note": "Residence is kept even with long absences abroad.",
@@ -174,6 +187,7 @@
    "name": "Blue visa",
    "category": "residence",
    "purpose": "Long-term residence for people who contribute to protecting the environment and sustainability.",
+   "who": "Environmental contributors",
    "limits": [],
    "maxValidity": "10 years",
    "approx": true,
