@@ -1,0 +1,184 @@
+{
+ "country": "AE",
+ "types": [
+  {
+   "id": "VISAFREE",
+   "name": "Visa on arrival / visa-free entry",
+   "category": "tourist",
+   "purpose": "Nationalities eligible for entry without a pre-arranged visa (e.g. Serbia, the EU, the UK, the US).",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 90
+    }
+   ],
+   "approx": true,
+   "note": "30 or 90 days depending on nationality — the rule for your passport is shown above.",
+   "src": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/Visit-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "TOURIST",
+   "name": "Tourist visa (30 or 60 days)",
+   "category": "tourist",
+   "purpose": "Tourism, single or multiple entry, sponsored by a hotel, airline or tour operator.",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 60
+    }
+   ],
+   "maxValidity": "Single or multiple entry, valid 60 days from issue",
+   "approx": true,
+   "note": "Stay of 30 or 60 days, extendable once in the UAE.",
+   "src": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/tourist-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "MULTI5Y",
+   "name": "5-year multiple-entry tourist visa",
+   "category": "tourist",
+   "purpose": "Frequent tourists with sufficient funds; self-sponsored.",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 90
+    }
+   ],
+   "maxValidity": "5 years",
+   "entries": "multiple",
+   "approx": true,
+   "note": "Up to 90 days per stay, extendable once by 90 days; at most 180 days a year.",
+   "src": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/tourist-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "VISIT",
+   "name": "Visit visa (family, friends, job exploration, business)",
+   "category": "tourist",
+   "purpose": "Visiting relatives or friends, exploring jobs, business visits, attending events.",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 90
+    }
+   ],
+   "maxValidity": "Single entry, 60 days to use",
+   "approx": true,
+   "note": "Stays of 30, 60 or 90 days depending on the kind of visit.",
+   "src": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/Visit-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "TRANSIT",
+   "name": "Transit visa",
+   "category": "transit",
+   "purpose": "Passing through the UAE on the way to another country.",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 4
+    }
+   ],
+   "maxValidity": "Single entry, cannot be extended",
+   "entries": "single",
+   "note": "48 or 96 hours.",
+   "src": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/transit-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "MEDICAL",
+   "name": "Medical treatment entry permit",
+   "category": "tourist",
+   "purpose": "Patients coming for treatment in the UAE, and their companions.",
+   "limits": [],
+   "maxValidity": "Single entry",
+   "approx": true,
+   "src": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/patient-and-companion-entry-permits",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "WORK",
+   "name": "Work residence visa",
+   "category": "work",
+   "purpose": "Employment with a UAE company or government entity sponsoring you.",
+   "limits": [],
+   "maxValidity": "2 years (3 years for some), renewable",
+   "note": "No day count, but leaving for more than 6 months can cancel residence.",
+   "src": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/residence-visa-for-working-in-the-uae",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "STUDENT",
+   "name": "Student residence visa",
+   "category": "student",
+   "purpose": "Studying at a UAE university or school; outstanding students can get longer visas.",
+   "limits": [],
+   "maxValidity": "1 year, renewable (5 years for outstanding students)",
+   "src": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/residence-visa-for-studying-in-the-uae",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "FAMILY",
+   "name": "Family residence visa",
+   "category": "family",
+   "purpose": "Spouse, children and parents sponsored by a UAE resident.",
+   "limits": [],
+   "maxValidity": "Linked to the sponsor's residence",
+   "src": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/Residence-visa/residence-visa-for-family-members",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "RETIRED",
+   "name": "Retirement residence visa",
+   "category": "residence",
+   "purpose": "Residents aged 55 or over with savings, property or income above the thresholds.",
+   "limits": [],
+   "maxValidity": "5 years, renewable",
+   "src": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/Residence-visa/residence-visa-for-the-retired",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "REMOTE",
+   "name": "Remote work visa",
+   "category": "work",
+   "purpose": "Working for an employer outside the UAE while living in the UAE.",
+   "limits": [],
+   "maxValidity": "1 year, renewable",
+   "src": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/Residence-visa/residence-visa-for-working-outside-the-uae",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "INVESTOR",
+   "name": "Investor / partner residence visa",
+   "category": "business",
+   "purpose": "Investors and partners in a UAE company, and property owners.",
+   "limits": [],
+   "maxValidity": "2 or 3 years; golden visa for larger investments",
+   "src": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/Investor-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "GOLDEN",
+   "name": "Golden visa",
+   "category": "residence",
+   "purpose": "Long-term residence for investors, entrepreneurs, specialised talents, outstanding students and others; no sponsor needed.",
+   "limits": [],
+   "maxValidity": "5 or 10 years, renewable",
+   "note": "Residence is kept even with long absences abroad.",
+   "src": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/golden-visa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "BLUE",
+   "name": "Blue visa",
+   "category": "residence",
+   "purpose": "Long-term residence for people who contribute to protecting the environment and sustainability.",
+   "limits": [],
+   "maxValidity": "10 years",
+   "approx": true,
+   "src": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/the-blue-visa",
+   "checked": "2026-10-08"
+  }
+ ]
+}
