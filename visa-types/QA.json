@@ -1,0 +1,191 @@
+{
+ "country": "QA",
+ "types": [
+  {
+   "id": "VISAFREE",
+   "name": "Visa-free entry",
+   "category": "tourist",
+   "purpose": "Entering Qatar without a prior visa for visits, for eligible nationalities.",
+   "who": "Nationals of visa-exempt countries and GCC citizens",
+   "limits": [],
+   "note": "Eligible nationalities and conditions (passport validity, hotel or onward ticket) vary; check the official list.",
+   "src": "https://visitqatar.com/intl-en/plan-your-trip/visas",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "VOA",
+   "name": "Visa on arrival (tourist)",
+   "category": "tourist",
+   "purpose": "Tourist visa issued at Qatar ports of entry to eligible nationalities.",
+   "who": "Nationals of eligible countries",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 90
+    }
+   ],
+   "approx": true,
+   "note": "Stay is 30 or 90 days depending on nationality; fee QAR 100 for some nationalities; some must book a Discover Qatar hotel.",
+   "src": "https://portal.moi.gov.qa/wps/wcm/connect/wcmlib-internet-en/sa-departmentcommittee/generaladministrationofnationalitybordersandexpatriateaffairs/visas/c27493",
+   "apply": "https://visitqatar.com/intl-en/plan-your-trip/visas",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "HAYYA.A1",
+   "name": "Hayya Tourist Visa (A1)",
+   "category": "tourist",
+   "purpose": "Online tourist visa applied for in advance through the Hayya platform.",
+   "who": "Visitors of all nationalities except GCC citizens",
+   "limits": [],
+   "note": "Hotel reservation needed on application; fee QAR 100 once approved.",
+   "src": "https://visitqatar.com/intl-en/plan-your-trip/visas",
+   "apply": "https://hayya.qa/en/",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "HAYYA.A2",
+   "name": "Hayya GCC Resident Visa (A2)",
+   "category": "tourist",
+   "purpose": "Online visit visa for residents of GCC countries in authorised professions.",
+   "who": "GCC residents",
+   "limits": [],
+   "src": "https://hukoomi.gov.qa/en/categories/citizenship-and-residency/hayya-card",
+   "apply": "https://hayya.qa/en/",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "HAYYA.A3",
+   "name": "Hayya Visa with ETA (A3)",
+   "category": "tourist",
+   "purpose": "Entry visa via an Electronic Travel Authorization on the Hayya platform.",
+   "who": "Eligible residents of listed countries",
+   "limits": [],
+   "src": "https://hukoomi.gov.qa/en/categories/citizenship-and-residency/hayya-card",
+   "apply": "https://hayya.qa/en/",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "HAYYA.A4",
+   "name": "Hayya Visa for Companions of GCC Citizens (A4)",
+   "category": "family",
+   "purpose": "Entry visa for people accompanying citizens of GCC countries.",
+   "who": "Companions of GCC citizens",
+   "limits": [],
+   "src": "https://hukoomi.gov.qa/en/services/issue-visa-for-companions-of-gcc-nationals",
+   "apply": "https://hayya.qa/en/",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "GCCRES",
+   "name": "Visit visa for GCC residents",
+   "category": "tourist",
+   "purpose": "Visit or tourism visa issued on arrival to GCC residents in authorised professions and their companions.",
+   "who": "GCC residents in approved professions",
+   "limits": [],
+   "maxValidity": "1 month, extendable to a maximum of 3 months",
+   "note": "Residence permit and passport must be valid for at least 6 months; fee QAR 100.",
+   "src": "https://hukoomi.gov.qa/en/services/apply-for-visit-visa-for-gcc-residents",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "QAOM",
+   "name": "Qatar-Oman Joint Tourist Visa",
+   "category": "tourist",
+   "purpose": "Single tourist visa covering both Qatar and Oman.",
+   "who": "Nationals of listed countries",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 30
+    }
+   ],
+   "maxValidity": "30 days, extendable by another 30 days for a fee",
+   "entries": "multiple",
+   "note": "Issued on arrival.",
+   "src": "https://visitqatar.com/intl-en/plan-your-trip/visas",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "TRANSIT",
+   "name": "Qatar Transit Visa",
+   "category": "transit",
+   "purpose": "Visa for passengers transiting Hamad International Airport who are not visa-free.",
+   "who": "Transit passengers needing a visa",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 4
+    }
+   ],
+   "maxValidity": "Up to 4 days",
+   "src": "https://visitqatar.com/intl-en/plan-your-trip/visas",
+   "apply": "https://www.discoverqatar.qa/transit-tours/",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "VISIT.MOFA",
+   "name": "Visit visa (via MOFA)",
+   "category": "tourist",
+   "purpose": "Visit visa for travellers to enter Qatar, obtained through the Ministry of Foreign Affairs consular department.",
+   "who": "Travellers of all nationalities except GCC nationals",
+   "limits": [],
+   "src": "https://hukoomi.gov.qa/en/services/issue-visit-visa-through-foreign-ministry",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "FAMVISIT",
+   "name": "Family visit visa",
+   "category": "family",
+   "purpose": "Visit visa for family members of a resident, issued through the Ministry of Interior.",
+   "who": "Family of residents",
+   "limits": [],
+   "note": "Newborn children can be added through Metrash.",
+   "src": "https://hukoomi.gov.qa/en/services/issue-newborn-visa-inside-the-country-via-metrash",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "WORKVISA",
+   "name": "Work visa",
+   "category": "work",
+   "purpose": "Visa requested by an employer or sponsor from the Ministry of Interior for people brought to Qatar to work.",
+   "who": "Workers sponsored by an employer, with prior approval",
+   "limits": [],
+   "src": "https://hukoomi.gov.qa/en/articles/citizenship-visas-and-permanent-residency-in-qatar",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "RESIDENCE",
+   "name": "Residence permit (RP)",
+   "category": "residence",
+   "purpose": "Residence permit issued after entry on a residence visa, renewable for 1 to 3 years.",
+   "who": "Expatriates sponsored for work or family",
+   "limits": [],
+   "maxValidity": "Renewable for 1 to 3 years",
+   "note": "Medical check required within 30 days of entry.",
+   "src": "https://hukoomi.gov.qa/en/services/renew-residence-permit-for-expatriates",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "FAMRES",
+   "name": "Family residence",
+   "category": "family",
+   "purpose": "Residence for the spouse and family of a resident who meets the family sponsorship conditions.",
+   "who": "Family of residents",
+   "limits": [],
+   "src": "https://hukoomi.gov.qa/en/articles/citizenship-visas-and-permanent-residency-in-qatar",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "PR",
+   "name": "Permanent residency",
+   "category": "immigrant",
+   "purpose": "Permanent residence card under Law No. 10 of 2018 for non-Qataris meeting the conditions.",
+   "who": "Long-term residents (e.g. 20 years of residence if born abroad)",
+   "limits": [],
+   "maxValidity": "Permanent",
+   "note": "Also requires sufficient income, a clean record and Arabic; fee QAR 3,000.",
+   "src": "https://hukoomi.gov.qa/en/articles/acquisition-of-permanent-residency-in-qatar",
+   "checked": "2026-10-08"
+  }
+ ]
+}

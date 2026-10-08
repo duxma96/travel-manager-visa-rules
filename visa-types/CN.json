@@ -1,0 +1,310 @@
+{
+ "country": "CN",
+ "types": [
+  {
+   "id": "L",
+   "name": "L visa (tourist)",
+   "category": "tourist",
+   "purpose": "Tourism in mainland China.",
+   "who": "Foreign nationals needing a visa",
+   "limits": [],
+   "entries": "varies",
+   "note": "Number of entries and length of stay are set by the consular officer.",
+   "src": "https://fj.china-embassy.gov.cn/eng/lsfw/hzqz/202312/t20231222_11209512.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "M",
+   "name": "M visa (business)",
+   "category": "business",
+   "purpose": "Commercial and trade activities.",
+   "who": "Foreign nationals needing a visa",
+   "limits": [],
+   "entries": "varies",
+   "note": "Number of entries and length of stay are set by the consular officer.",
+   "src": "https://fj.china-embassy.gov.cn/eng/lsfw/hzqz/202312/t20231222_11209512.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "F",
+   "name": "F visa (exchanges and visits)",
+   "category": "business",
+   "purpose": "Exchanges, visits, study tours and other non-commercial activities.",
+   "who": "Foreign nationals needing a visa",
+   "limits": [],
+   "entries": "varies",
+   "src": "https://fj.china-embassy.gov.cn/eng/lsfw/hzqz/202312/t20231222_11209512.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "Z",
+   "name": "Z visa (work)",
+   "category": "work",
+   "purpose": "Work in China (employment, foreign expert permit, representative office, offshore petroleum operations).",
+   "who": "Foreign workers",
+   "limits": [],
+   "entries": "varies",
+   "note": "Apply for a residence permit within 30 days of entry.",
+   "src": "https://fj.china-embassy.gov.cn/eng/lsfw/hzqz/202312/t20231222_11209512.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "X1",
+   "name": "X1 visa (long-term study)",
+   "category": "student",
+   "purpose": "Study in China for more than 180 days.",
+   "who": "Students",
+   "limits": [],
+   "entries": "varies",
+   "note": "Apply for a residence permit within 30 days of entry.",
+   "src": "https://fj.china-embassy.gov.cn/eng/lsfw/hzqz/202312/t20231222_11209512.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "X2",
+   "name": "X2 visa (short-term study)",
+   "category": "student",
+   "purpose": "Study in China for no more than 180 days.",
+   "who": "Students",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 180
+    }
+   ],
+   "approx": true,
+   "entries": "varies",
+   "note": "Official page says \"no more than 180 days\".",
+   "src": "https://fj.china-embassy.gov.cn/eng/lsfw/hzqz/202312/t20231222_11209512.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "Q1",
+   "name": "Q1 visa (family reunion, long)",
+   "category": "family",
+   "purpose": "Family reunion with Chinese citizens or foreign permanent residents of China, or foster care, for more than 180 days.",
+   "who": "Relatives of Chinese citizens or permanent residents",
+   "limits": [],
+   "entries": "varies",
+   "note": "Apply for a residence permit within 30 days of entry.",
+   "src": "https://fj.china-embassy.gov.cn/eng/lsfw/hzqz/202312/t20231222_11209512.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "Q2",
+   "name": "Q2 visa (family visit, short)",
+   "category": "family",
+   "purpose": "Visiting relatives who are Chinese citizens or foreign permanent residents of China, for no more than 180 days.",
+   "who": "Relatives of Chinese citizens or permanent residents",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 180
+    }
+   ],
+   "approx": true,
+   "entries": "varies",
+   "src": "https://fj.china-embassy.gov.cn/eng/lsfw/hzqz/202312/t20231222_11209512.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "S1",
+   "name": "S1 visa (private affairs, long)",
+   "category": "family",
+   "purpose": "Visiting family members who are foreigners working or studying in China, or other private affairs, for more than 180 days.",
+   "who": "Relatives of foreign workers or students",
+   "limits": [],
+   "entries": "varies",
+   "note": "Apply for a residence permit within 30 days of entry.",
+   "src": "https://fj.china-embassy.gov.cn/eng/lsfw/hzqz/202312/t20231222_11209512.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "S2",
+   "name": "S2 visa (private affairs, short)",
+   "category": "family",
+   "purpose": "Short visits to family members who are foreigners working or studying in China, or other private matters, up to 180 days.",
+   "who": "Relatives of foreign workers or students",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 180
+    }
+   ],
+   "approx": true,
+   "entries": "varies",
+   "src": "https://fj.china-embassy.gov.cn/eng/lsfw/hzqz/202312/t20231222_11209512.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "R",
+   "name": "R visa (talent)",
+   "category": "work",
+   "purpose": "For high-level talent or those with skills urgently needed in China.",
+   "who": "High-level or urgently needed talent",
+   "limits": [],
+   "entries": "varies",
+   "src": "https://fj.china-embassy.gov.cn/eng/lsfw/hzqz/202312/t20231222_11209512.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "K",
+   "name": "K visa (young science and technology talent)",
+   "category": "work",
+   "purpose": "New ordinary visa category to promote exchanges and cooperation between young science and technology talents from China and other countries.",
+   "who": "Young science and technology talent",
+   "limits": [],
+   "entries": "varies",
+   "note": "Details (eligibility, validity, stay) are published by Chinese embassies and consulates; none checked here.",
+   "src": "https://vn.china-embassy.gov.cn/eng/fyrth/202509/t20250929_11719907.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "G",
+   "name": "G visa (transit)",
+   "category": "transit",
+   "purpose": "Transit through China.",
+   "who": "Foreign nationals transiting China",
+   "limits": [],
+   "entries": "varies",
+   "src": "https://fj.china-embassy.gov.cn/eng/lsfw/hzqz/202312/t20231222_11209512.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "C",
+   "name": "C visa (crew)",
+   "category": "other",
+   "purpose": "International transport crew, cross-border motor vehicle drivers and accompanying family members.",
+   "who": "Crew and drivers",
+   "limits": [],
+   "entries": "varies",
+   "src": "https://fj.china-embassy.gov.cn/eng/lsfw/hzqz/202312/t20231222_11209512.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "D",
+   "name": "D visa (permanent residence)",
+   "category": "immigrant",
+   "purpose": "Entry of foreigners approved for permanent residence in China.",
+   "who": "Approved permanent residents",
+   "limits": [],
+   "entries": "varies",
+   "note": "Apply for a residence permit within 30 days of entry.",
+   "src": "https://fj.china-embassy.gov.cn/eng/lsfw/hzqz/202312/t20231222_11209512.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "J1",
+   "name": "J1 visa (resident journalist)",
+   "category": "work",
+   "purpose": "Resident foreign journalists of news organizations stationed in China, for more than 180 days.",
+   "who": "Resident foreign journalists",
+   "limits": [],
+   "entries": "varies",
+   "src": "https://fj.china-embassy.gov.cn/eng/lsfw/hzqz/202312/t20231222_11209512.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "J2",
+   "name": "J2 visa (short-term journalist)",
+   "category": "work",
+   "purpose": "Short-term news coverage, no more than 180 days.",
+   "who": "Visiting foreign journalists",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 180
+    }
+   ],
+   "approx": true,
+   "entries": "varies",
+   "src": "https://fj.china-embassy.gov.cn/eng/lsfw/hzqz/202312/t20231222_11209512.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "UNILATERAL",
+   "name": "Unilateral visa-free entry",
+   "category": "tourist",
+   "purpose": "Visa-free entry for business, tourism, visiting family or friends, exchanges or transit.",
+   "who": "Ordinary-passport holders of 50 listed countries",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 30
+    }
+   ],
+   "maxValidity": "Policy valid through 31 Dec 2026 (per Canada embassy page; Russia reportedly 2027)",
+   "entries": "multiple",
+   "note": "No work, study or news coverage. Days count from the day after entry. Check your country is on the current list.",
+   "src": "https://ca.china-embassy.gov.cn/eng/lsyw/VisaFree/VisaFreeEntryA/202506/t20250609_11643310.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "TRANSIT240",
+   "name": "240-hour visa-free transit",
+   "category": "transit",
+   "purpose": "Visa-free transit to a third country or region with a confirmed onward ticket, with short-term tourism, business or visits within permitted areas.",
+   "who": "Ordinary-passport holders of 57 listed countries",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 10
+    }
+   ],
+   "entries": "single",
+   "approx": true,
+   "note": "Up to 240 hours (10 days) via 65 open ports. No work, study or news reporting. Counted from 0:00 the day after entry.",
+   "src": "https://toronto.china-consulate.gov.cn/eng/vp/VISA/202512/t20251204_11766986.htm",
+   "apply": "https://us.china-embassy.gov.cn/eng/lsfw/zj/qz2021/202412/t20241217_11495647.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "HAINAN30",
+   "name": "Hainan 30-day visa-free entry",
+   "category": "tourist",
+   "purpose": "Visa-free entry to Hainan for tourism, business, visits, family visits, medical treatment, conferences, exhibitions and sports.",
+   "who": "Ordinary-passport holders of 61 listed countries",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 30
+    }
+   ],
+   "entries": "multiple",
+   "note": "Stay only within Hainan. No work or study. Counted from 0:00 the day after entry.",
+   "src": "https://us.china-embassy.gov.cn/eng/lsfw/zj/qz2021/202412/t20241217_11495647.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "ASEAN-GUILIN",
+   "name": "ASEAN tour group visa-free (Guilin)",
+   "category": "tourist",
+   "purpose": "Visa-free group tour of Guilin for ASEAN tour groups arranged by a registered Chinese travel agency.",
+   "who": "Groups of 2+ ordinary-passport holders from ASEAN countries",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 6
+    }
+   ],
+   "entries": "single",
+   "approx": true,
+   "note": "Up to 144 hours (6 days), group in and group out through Guilin airport, within Guilin only.",
+   "src": "https://ca.china-embassy.gov.cn/eng/lsyw/VisaFree/VisaFreeEntryB/202506/t20250609_11643315.htm",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "PRC",
+   "name": "Permanent residence card",
+   "category": "residence",
+   "purpose": "Identity document of foreigners approved for permanent residence; with a passport it allows entry and exit.",
+   "who": "Approved permanent residents",
+   "limits": [],
+   "maxValidity": "10 years (adults), 5 years (under 18)",
+   "entries": "multiple",
+   "note": "Holders must stay in China more than 3 months cumulatively each year unless approved otherwise.",
+   "src": "https://en.nia.gov.cn/n147418/n147458/c155972/content.html",
+   "checked": "2026-10-08"
+  }
+ ]
+}
