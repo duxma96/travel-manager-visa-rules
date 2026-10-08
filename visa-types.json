@@ -4,6 +4,916 @@
  "generated": "2026-10-08",
  "source": "Official immigration and consular sites; reviewed in pull requests",
  "countries": {
+  "AU": [
+   {
+    "id": "ETA601",
+    "name": "Electronic Travel Authority (subclass 601)",
+    "category": "tourist",
+    "purpose": "Tourism or business visitor activities for eligible passport holders, applied for in the Australian ETA app.",
+    "limits": [
+     {
+      "kind": "stay",
+      "days": 90
+     }
+    ],
+    "maxValidity": "12 months (or until the passport expires)",
+    "entries": "multiple",
+    "approx": true,
+    "note": "Up to 3 months after each entry. Study or training up to 3 months in total.",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "EVISITOR651",
+    "name": "eVisitor (subclass 651)",
+    "category": "tourist",
+    "purpose": "Tourism or business visitor activities for EU and some other European passport holders. Free.",
+    "limits": [
+     {
+      "kind": "stay",
+      "days": 90
+     }
+    ],
+    "maxValidity": "12 months from the grant",
+    "entries": "multiple",
+    "approx": true,
+    "note": "Up to 3 months after each entry.",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/evisitor-651",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "VISITOR600",
+    "name": "Visitor (subclass 600)",
+    "category": "tourist",
+    "purpose": "Tourism, visiting family, business visitor activities or sponsored family visits, for any nationality.",
+    "limits": [
+     {
+      "kind": "stay",
+      "days": 90
+     }
+    ],
+    "maxValidity": "Up to 10 years (frequent traveller stream)",
+    "entries": "varies",
+    "approx": true,
+    "note": "Each grant allows a stay of 3, 6 or 12 months — the period on your grant letter is what counts.",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "TRANSIT771",
+    "name": "Transit visa (subclass 771)",
+    "category": "transit",
+    "purpose": "Passing through Australia, or joining a ship as crew.",
+    "limits": [
+     {
+      "kind": "stay",
+      "days": 3
+     }
+    ],
+    "maxValidity": "Single transit",
+    "note": "No longer than 72 hours (5 days to sign on to a ship as crew).",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/transit-771",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "MEDICAL602",
+    "name": "Medical Treatment visa (subclass 602)",
+    "category": "tourist",
+    "purpose": "Medical treatment or consultations in Australia, or supporting someone who is.",
+    "limits": [],
+    "maxValidity": "As on your grant",
+    "note": "Temporary; the stay is set on your grant.",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/medical-treatment-602",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "WHV417",
+    "name": "Working Holiday visa (subclass 417)",
+    "category": "work",
+    "purpose": "Holiday and short-term work for 18–30 year olds (35 for some countries) from partner countries.",
+    "limits": [],
+    "maxValidity": "12 months; a 2nd and 3rd year possible with specified work",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "WAH462",
+    "name": "Work and Holiday visa (subclass 462)",
+    "category": "work",
+    "purpose": "Holiday and short-term work for 18–30 year olds from partner countries (education and English requirements).",
+    "limits": [],
+    "maxValidity": "12 months; a 2nd and 3rd year possible with specified work",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-462",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "STUDENT500",
+    "name": "Student visa (subclass 500)",
+    "category": "student",
+    "purpose": "Full-time study at a registered course.",
+    "limits": [],
+    "maxValidity": "Up to 6 years, in line with your enrolment",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "GUARDIAN590",
+    "name": "Student Guardian visa (subclass 590)",
+    "category": "student",
+    "purpose": "Guardians of student visa holders under 18.",
+    "limits": [],
+    "maxValidity": "Linked to the student visa holder",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-590",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "TRAINING407",
+    "name": "Training visa (subclass 407)",
+    "category": "work",
+    "purpose": "Workplace-based training or professional development.",
+    "limits": [],
+    "maxValidity": "Up to 2 years",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/training-407",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SID482",
+    "name": "Skills in Demand visa (subclass 482)",
+    "category": "work",
+    "purpose": "Skilled work for an approved Australian employer that cannot find a local worker.",
+    "limits": [],
+    "maxValidity": "Up to 4 years",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SSS400",
+    "name": "Temporary Work (Short Stay Specialist) visa (subclass 400)",
+    "category": "work",
+    "purpose": "Short-term, highly specialised, non-ongoing work.",
+    "limits": [
+     {
+      "kind": "stay",
+      "days": 180
+     }
+    ],
+    "maxValidity": "Up to 6 months",
+    "approx": true,
+    "note": "Usually up to 3 months; longer needs a strong business case.",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-work-400",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "TA408",
+    "name": "Temporary Activity visa (subclass 408)",
+    "category": "work",
+    "purpose": "Short-term work in specific activities: entertainment, sport, research, religious work, events, exchanges.",
+    "limits": [],
+    "maxValidity": "From 3 months to 4 years, depending on the activity",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-activity-408",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "IR403",
+    "name": "Temporary Work (International Relations) visa (subclass 403)",
+    "category": "work",
+    "purpose": "Work under government agreements: diplomats' private staff, Pacific Australia Labour Mobility, foreign government agencies.",
+    "limits": [],
+    "maxValidity": "Up to 4 years, depending on the stream",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-work-403",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "CREW942",
+    "name": "Crew Travel Authority (subclass 942)",
+    "category": "work",
+    "purpose": "International airline crew.",
+    "limits": [
+     {
+      "kind": "stay",
+      "days": 30
+     }
+    ],
+    "maxValidity": "Until you stop working as airline crew",
+    "note": "Crew members and safety inspectors up to 30 days at a time.",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/crew-travel-authority-942",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "MCV988",
+    "name": "Maritime Crew visa (subclass 988)",
+    "category": "work",
+    "purpose": "Crew of non-military ships arriving in Australia.",
+    "limits": [],
+    "maxValidity": "3 years",
+    "note": "You may stay as long as you are crew of an eligible ship that is in Australia.",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/maritime-crew-988",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SPECIAL",
+    "name": "Special Purpose visa",
+    "category": "other",
+    "purpose": "People with a prescribed status — e.g. military personnel, guests of government, some airline crew.",
+    "limits": [],
+    "maxValidity": "As long as you have the prescribed status",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/special-purpose-visa",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SCV444",
+    "name": "Special Category visa (subclass 444)",
+    "category": "residence",
+    "purpose": "New Zealand citizens living and working in Australia; granted on arrival.",
+    "limits": [],
+    "maxValidity": "Until you leave Australia",
+    "note": "No day count while you stay.",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/special-category-visa-subclass-444",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "NZFAMILY461",
+    "name": "New Zealand Citizen Family Relationship (temporary) visa (subclass 461)",
+    "category": "family",
+    "purpose": "Family members of New Zealand citizens living in Australia.",
+    "limits": [],
+    "maxValidity": "5 years",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/new-zealand-citizen-family-relationship-temporary-461",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "PARTNERS",
+    "name": "Partner visa — outside Australia (subclass 309/100)",
+    "category": "family",
+    "purpose": "Spouse or de facto partner of an Australian citizen, permanent resident or eligible New Zealander, applying from outside Australia.",
+    "limits": [],
+    "maxValidity": "Temporary (309) until the permanent visa (100) is decided",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-offshore",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "PARTNERON",
+    "name": "Partner visa — in Australia (subclass 820/801)",
+    "category": "family",
+    "purpose": "Spouse or de facto partner of an Australian citizen, permanent resident or eligible New Zealander, applying in Australia.",
+    "limits": [],
+    "maxValidity": "Temporary (820) until the permanent visa (801) is decided",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "PMV300",
+    "name": "Prospective Marriage visa (subclass 300)",
+    "category": "family",
+    "purpose": "Coming to Australia to marry your Australian partner, then apply for a partner visa.",
+    "limits": [],
+    "maxValidity": "9 to 15 months from the grant",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/prospective-marriage-300",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "PARENT103",
+    "name": "Parent visa (subclass 103)",
+    "category": "immigrant",
+    "purpose": "Parents of a settled Australian citizen, permanent resident or eligible New Zealander.",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/parent-103",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "AGEDPARENT804",
+    "name": "Aged Parent visa (subclass 804)",
+    "category": "immigrant",
+    "purpose": "Parents of pension age of a settled Australian, applying in Australia.",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/aged-parent-804",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "CONTRIBPARENT",
+    "name": "Contributory Parent visa (subclass 173/143)",
+    "category": "immigrant",
+    "purpose": "Parents of a settled Australian, with a higher contribution and faster processing.",
+    "limits": [],
+    "maxValidity": "173: 2 years (temporary); 143: permanent",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/contributory-parent-143",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "CONTRIBAGED",
+    "name": "Contributory Aged Parent visa (subclass 884/864)",
+    "category": "immigrant",
+    "purpose": "Parents of pension age of a settled Australian, applying in Australia, with a higher contribution.",
+    "limits": [],
+    "maxValidity": "884: 2 years (temporary); 864: permanent",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/contributory-aged-parent-864",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SPONSOREDPARENT870",
+    "name": "Sponsored Parent (Temporary) visa (subclass 870)",
+    "category": "family",
+    "purpose": "Parents visiting their Australian children for longer periods.",
+    "limits": [],
+    "maxValidity": "Up to 3 or 5 years",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/sponsored-parent-temporary-870",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "CHILD",
+    "name": "Child visa (subclass 101/802)",
+    "category": "immigrant",
+    "purpose": "Dependent children of an Australian citizen, permanent resident or eligible New Zealander.",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/child-101",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "DEPCHILD445",
+    "name": "Dependent Child visa (subclass 445)",
+    "category": "family",
+    "purpose": "Dependent children of a partner visa holder.",
+    "limits": [],
+    "maxValidity": "Until the parent's permanent visa is decided",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/dependent-child-445",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "ADOPTION102",
+    "name": "Adoption visa (subclass 102)",
+    "category": "immigrant",
+    "purpose": "Children adopted, or being adopted, by Australian citizens or permanent residents.",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/adoption-102",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "ORPHAN",
+    "name": "Orphan Relative visa (subclass 117/837)",
+    "category": "immigrant",
+    "purpose": "Children under 18 whose parents cannot care for them, sponsored by an Australian relative.",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/orphan-relative-117",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "REMAINING",
+    "name": "Remaining Relative visa (subclass 115/835)",
+    "category": "immigrant",
+    "purpose": "People whose only close family are in Australia.",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/remaining-relative-115",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "AGEDDEP",
+    "name": "Aged Dependent Relative visa (subclass 114/838)",
+    "category": "immigrant",
+    "purpose": "Older, single relatives financially dependent on an Australian relative.",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/aged-dependent-relative-114",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "CARER",
+    "name": "Carer visa (subclass 116/836)",
+    "category": "immigrant",
+    "purpose": "Caring for an Australian relative with a long-term medical condition.",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/carer-116",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SI189",
+    "name": "Skilled Independent visa (subclass 189)",
+    "category": "immigrant",
+    "purpose": "Invited skilled workers with an occupation on the skilled list, no sponsor needed.",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-independent-189",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SN190",
+    "name": "Skilled Nominated visa (subclass 190)",
+    "category": "immigrant",
+    "purpose": "Skilled workers nominated by a state or territory.",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-nominated-190",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SWR491",
+    "name": "Skilled Work Regional (Provisional) visa (subclass 491)",
+    "category": "work",
+    "purpose": "Skilled workers living and working in regional Australia, nominated by a state or sponsored by family.",
+    "limits": [],
+    "maxValidity": "5 years; leads to permanent residence (191)",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-work-regional-provisional-491",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SESR494",
+    "name": "Skilled Employer Sponsored Regional (provisional) visa (subclass 494)",
+    "category": "work",
+    "purpose": "Skilled workers sponsored by a regional employer.",
+    "limits": [],
+    "maxValidity": "5 years; leads to permanent residence (191)",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-employer-sponsored-regional-494",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SR191",
+    "name": "Permanent Residence (Skilled Regional) visa (subclass 191)",
+    "category": "immigrant",
+    "purpose": "Holders of a 491 or 494 visa who lived and worked in regional Australia.",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-regional-191",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SRP489",
+    "name": "Skilled Regional (provisional) visa (subclass 489)",
+    "category": "work",
+    "purpose": "Older regional skilled visa (closed to new applicants except some family members).",
+    "limits": [],
+    "maxValidity": "4 years",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-regional-provisional-489",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SR887",
+    "name": "Skilled Regional visa (subclass 887)",
+    "category": "immigrant",
+    "purpose": "Holders of certain provisional regional visas who lived and worked in regional Australia.",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-regional-887",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "ENS186",
+    "name": "Employer Nomination Scheme (subclass 186)",
+    "category": "immigrant",
+    "purpose": "Skilled workers nominated by an Australian employer.",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/employer-nomination-scheme-186",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "RSMS187",
+    "name": "Regional Sponsored Migration Scheme (subclass 187)",
+    "category": "immigrant",
+    "purpose": "Skilled workers nominated by a regional employer (mostly closed to new applicants).",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/regional-sponsor-migration-scheme-187",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "PEV192",
+    "name": "Pacific Engagement Visa (subclass 192)",
+    "category": "immigrant",
+    "purpose": "Citizens of Pacific countries and Timor-Leste selected in the annual ballot.",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/pacific-engagement",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "NIV858",
+    "name": "National Innovation visa (subclass 858)",
+    "category": "immigrant",
+    "purpose": "People with an internationally recognised record of exceptional achievement.",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/national-innovation-visa-858",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "DT124",
+    "name": "Distinguished Talent visa (subclass 124)",
+    "category": "immigrant",
+    "purpose": "People with an internationally recognised record of exceptional achievement, applying from outside Australia.",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/distinguished-talent-124",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "BIIP188",
+    "name": "Business Innovation and Investment (provisional) visa (subclass 188)",
+    "category": "business",
+    "purpose": "Business owners and investors (closed to new applicants).",
+    "limits": [],
+    "maxValidity": "Up to 5 years",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/business-innovation-and-investment-188",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "BT132",
+    "name": "Business Talent (Permanent) visa (subclass 132)",
+    "category": "immigrant",
+    "purpose": "High-level business owners and entrepreneurs (closed to new applicants).",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/business-talent-permanent-132",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "REFUGEE",
+    "name": "Refugee visas (subclass 200, 201, 203, 204)",
+    "category": "immigrant",
+    "purpose": "People outside their home country who are subject to persecution.",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/refugee-200",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SHP202",
+    "name": "Global Special Humanitarian (subclass 202)",
+    "category": "immigrant",
+    "purpose": "People subject to substantial discrimination, proposed by someone in Australia.",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/global-special-humanitarian-202",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "PROTECTION866",
+    "name": "Protection visa (subclass 866)",
+    "category": "immigrant",
+    "purpose": "People in Australia who engage Australia's protection obligations.",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/protection-866",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "TPV785",
+    "name": "Temporary Protection visa (subclass 785)",
+    "category": "other",
+    "purpose": "People who arrived without a valid visa and engage Australia's protection obligations.",
+    "limits": [],
+    "maxValidity": "3 years",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-protection-785",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SHEV790",
+    "name": "Safe Haven Enterprise visa (subclass 790)",
+    "category": "other",
+    "purpose": "People who arrived without a valid visa, engage protection obligations and want to work or study in regional Australia.",
+    "limits": [],
+    "maxValidity": "5 years",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/safe-haven-enterprise-790",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "BVA010",
+    "name": "Bridging visa A (subclass 010)",
+    "category": "other",
+    "purpose": "Staying lawfully in Australia while a new substantive visa application is processed.",
+    "limits": [],
+    "maxValidity": "Until your application is decided",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/bridging-visa-a-010",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "BVB020",
+    "name": "Bridging visa B (subclass 020)",
+    "category": "other",
+    "purpose": "Travelling out of and back into Australia while a substantive visa application is processed.",
+    "limits": [],
+    "maxValidity": "Temporary; the travel period is set on the grant",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/bridging-visa-b-020",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "BVC030",
+    "name": "Bridging visa C (subclass 030)",
+    "category": "other",
+    "purpose": "Staying lawfully while an application is processed, when you had no substantive visa.",
+    "limits": [],
+    "maxValidity": "Until your application is decided",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/bridging-visa-c-030",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "BVE050",
+    "name": "Bridging visa E (subclass 050/051)",
+    "category": "other",
+    "purpose": "Staying lawfully while you arrange to leave, or while a matter is resolved.",
+    "limits": [],
+    "maxValidity": "Temporary",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/bridging-visa-e-050-051",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "RRV155",
+    "name": "Resident Return visa (subclass 155/157)",
+    "category": "residence",
+    "purpose": "Permanent residents and former citizens travelling back to Australia as permanent residents.",
+    "limits": [],
+    "maxValidity": "Usually 5 years of travel facility",
+    "note": "No day count in Australia; it only governs re-entry.",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/resident-return-visa-155-157",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "FR151",
+    "name": "Former Resident visa (subclass 151)",
+    "category": "immigrant",
+    "purpose": "Former residents who spent their childhood in Australia or served in the Australian Defence Force.",
+    "limits": [],
+    "maxValidity": "Permanent — you can stay indefinitely",
+    "src": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/former-resident-151",
+    "checked": "2026-10-08"
+   }
+  ],
+  "CA": [
+   {
+    "id": "ETA",
+    "name": "Electronic Travel Authorization (eTA)",
+    "category": "tourist",
+    "purpose": "Flying to or through Canada as a visitor, for visa-exempt nationalities.",
+    "limits": [
+     {
+      "kind": "stay",
+      "days": 180
+     }
+    ],
+    "maxValidity": "Up to 5 years (or until the passport expires)",
+    "entries": "multiple",
+    "approx": true,
+    "note": "Not a visa. The border officer decides how long you may stay, usually up to 6 months.",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "VISITOR",
+    "name": "Visitor visa (temporary resident visa)",
+    "category": "tourist",
+    "purpose": "Tourism, visiting family or friends, for nationalities that need a visa.",
+    "limits": [
+     {
+      "kind": "stay",
+      "days": 180
+     }
+    ],
+    "maxValidity": "Up to 10 years or until the passport expires",
+    "entries": "multiple",
+    "approx": true,
+    "note": "The border officer decides how long you may stay, usually up to 6 months; the date may be stamped in your passport or on a visitor record.",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "BUSINESS",
+    "name": "Business visitor",
+    "category": "business",
+    "purpose": "Business meetings, conferences, trade shows and events, without entering the Canadian labour market.",
+    "limits": [
+     {
+      "kind": "stay",
+      "days": 180
+     }
+    ],
+    "maxValidity": "Uses your eTA or visitor visa",
+    "approx": true,
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/business/visitors-events-conferences.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SUPERVISA",
+    "name": "Parent and grandparent super visa",
+    "category": "family",
+    "purpose": "Parents and grandparents visiting children or grandchildren who are Canadian citizens or permanent residents.",
+    "limits": [
+     {
+      "kind": "stay",
+      "days": 1826
+     }
+    ],
+    "maxValidity": "Up to 10 years",
+    "entries": "multiple",
+    "approx": true,
+    "note": "Up to 5 years at a time per entry.",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/parent-grandparent-super-visa.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "TRANSIT",
+    "name": "Transit visa",
+    "category": "transit",
+    "purpose": "Travelling through a Canadian airport to another country within 48 hours, for nationalities that need a visa.",
+    "limits": [
+     {
+      "kind": "stay",
+      "days": 2
+     }
+    ],
+    "maxValidity": "Single transit",
+    "note": "You must leave within 48 hours.",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/transit.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "VISITORRECORD",
+    "name": "Visitor record (extend your stay)",
+    "category": "other",
+    "purpose": "Staying longer in Canada as a visitor than the date you were given.",
+    "limits": [],
+    "maxValidity": "As decided by the officer",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/extend-stay.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "STUDY",
+    "name": "Study permit",
+    "category": "student",
+    "purpose": "Studying at a designated learning institution for longer than 6 months.",
+    "limits": [],
+    "maxValidity": "Length of the program plus 90 days",
+    "note": "Allows some work while you study, with conditions.",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "PGWP",
+    "name": "Post-graduation work permit",
+    "category": "work",
+    "purpose": "Working in Canada after graduating from an eligible Canadian program.",
+    "limits": [],
+    "maxValidity": "Up to 3 years, depending on the program",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "EMPLOYER",
+    "name": "Employer-specific work permit",
+    "category": "work",
+    "purpose": "Working for one employer under the conditions on your permit (often needs an LMIA).",
+    "limits": [],
+    "maxValidity": "As on the permit (usually the length of the job offer)",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/employer-specific.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "OPEN",
+    "name": "Open work permit",
+    "category": "work",
+    "purpose": "Working for almost any employer — e.g. spouses of skilled workers or students, people waiting for permanent residence.",
+    "limits": [],
+    "maxValidity": "As on the permit",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/open-work-permit.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "IEC",
+    "name": "International Experience Canada (working holiday, young professionals, co-op)",
+    "category": "work",
+    "purpose": "Young people (usually 18–35) from partner countries travelling and working in Canada.",
+    "limits": [],
+    "maxValidity": "Usually 12 to 24 months, depending on your country",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/iec.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "PRWAIT",
+    "name": "Work permit while waiting for permanent residence",
+    "category": "work",
+    "purpose": "Working while your permanent residence application is processed (bridging open work permit).",
+    "limits": [],
+    "maxValidity": "As on the permit",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/pr-work-permits.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "FAMILYWORK",
+    "name": "Open work permit for family of foreign workers",
+    "category": "work",
+    "purpose": "Spouses, common-law partners and dependent children of foreign workers in Canada.",
+    "limits": [],
+    "maxValidity": "Matches the principal worker",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/special-instructions/spouses-dependent-children.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "EXPRESSENTRY",
+    "name": "Express Entry (permanent residence)",
+    "category": "immigrant",
+    "purpose": "Skilled workers: Federal Skilled Worker, Canadian Experience Class and Federal Skilled Trades.",
+    "limits": [],
+    "maxValidity": "Permanent residence",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "PNP",
+    "name": "Provincial Nominee Program",
+    "category": "immigrant",
+    "purpose": "Permanent residence nominated by a province or territory for its labour needs.",
+    "limits": [],
+    "maxValidity": "Permanent residence",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/provincial-nominees.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "ATLANTIC",
+    "name": "Atlantic Immigration Program",
+    "category": "immigrant",
+    "purpose": "Permanent residence with a job offer in New Brunswick, Nova Scotia, PEI or Newfoundland and Labrador.",
+    "limits": [],
+    "maxValidity": "Permanent residence",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/atlantic-immigration.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "RURAL",
+    "name": "Rural and Francophone Community Immigration Pilots",
+    "category": "immigrant",
+    "purpose": "Permanent residence with a job in a participating rural or francophone community.",
+    "limits": [],
+    "maxValidity": "Permanent residence",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/rural-franco-pilots.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "QUEBEC",
+    "name": "Quebec-selected skilled workers, investors and entrepreneurs",
+    "category": "immigrant",
+    "purpose": "Permanent residence through selection by Quebec.",
+    "limits": [],
+    "maxValidity": "Permanent residence",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/quebec-skilled-workers.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "CAREGIVERS",
+    "name": "Caregivers (permanent residence)",
+    "category": "immigrant",
+    "purpose": "Home child-care and home support workers.",
+    "limits": [],
+    "maxValidity": "Permanent residence",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/caregivers.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "DOCTORS",
+    "name": "Medical doctors (permanent residence)",
+    "category": "immigrant",
+    "purpose": "Physicians with Canadian work experience.",
+    "limits": [],
+    "maxValidity": "Permanent residence",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/medical-doctors.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "FAMILY",
+    "name": "Family sponsorship",
+    "category": "immigrant",
+    "purpose": "Spouses, partners, dependent children, parents and grandparents sponsored by a Canadian citizen or permanent resident.",
+    "limits": [],
+    "maxValidity": "Permanent residence",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "STARTUP",
+    "name": "Start-up Visa / Self-employed persons",
+    "category": "immigrant",
+    "purpose": "Entrepreneurs with an innovative business, or self-employed people in culture or athletics.",
+    "limits": [],
+    "maxValidity": "Permanent residence",
+    "note": "Both programs were paused when last checked.",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/start-visa.html",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "PRCARD",
+    "name": "Permanent resident card",
+    "category": "residence",
+    "purpose": "Proof of permanent resident status for travelling back to Canada.",
+    "limits": [],
+    "maxValidity": "Card usually valid 5 years",
+    "note": "No day count, but you must live in Canada at least 730 days in every 5 years to keep the status.",
+    "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/permanent-residents.html",
+    "checked": "2026-10-08"
+   }
+  ],
   "GB": [
    {
     "id": "ETA",

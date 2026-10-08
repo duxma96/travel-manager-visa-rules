@@ -1,0 +1,274 @@
+{
+ "country": "CA",
+ "types": [
+  {
+   "id": "ETA",
+   "name": "Electronic Travel Authorization (eTA)",
+   "category": "tourist",
+   "purpose": "Flying to or through Canada as a visitor, for visa-exempt nationalities.",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 180
+    }
+   ],
+   "maxValidity": "Up to 5 years (or until the passport expires)",
+   "entries": "multiple",
+   "approx": true,
+   "note": "Not a visa. The border officer decides how long you may stay, usually up to 6 months.",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "VISITOR",
+   "name": "Visitor visa (temporary resident visa)",
+   "category": "tourist",
+   "purpose": "Tourism, visiting family or friends, for nationalities that need a visa.",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 180
+    }
+   ],
+   "maxValidity": "Up to 10 years or until the passport expires",
+   "entries": "multiple",
+   "approx": true,
+   "note": "The border officer decides how long you may stay, usually up to 6 months; the date may be stamped in your passport or on a visitor record.",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "BUSINESS",
+   "name": "Business visitor",
+   "category": "business",
+   "purpose": "Business meetings, conferences, trade shows and events, without entering the Canadian labour market.",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 180
+    }
+   ],
+   "maxValidity": "Uses your eTA or visitor visa",
+   "approx": true,
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/business/visitors-events-conferences.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "SUPERVISA",
+   "name": "Parent and grandparent super visa",
+   "category": "family",
+   "purpose": "Parents and grandparents visiting children or grandchildren who are Canadian citizens or permanent residents.",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 1826
+    }
+   ],
+   "maxValidity": "Up to 10 years",
+   "entries": "multiple",
+   "approx": true,
+   "note": "Up to 5 years at a time per entry.",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/parent-grandparent-super-visa.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "TRANSIT",
+   "name": "Transit visa",
+   "category": "transit",
+   "purpose": "Travelling through a Canadian airport to another country within 48 hours, for nationalities that need a visa.",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 2
+    }
+   ],
+   "maxValidity": "Single transit",
+   "note": "You must leave within 48 hours.",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/transit.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "VISITORRECORD",
+   "name": "Visitor record (extend your stay)",
+   "category": "other",
+   "purpose": "Staying longer in Canada as a visitor than the date you were given.",
+   "limits": [],
+   "maxValidity": "As decided by the officer",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/extend-stay.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "STUDY",
+   "name": "Study permit",
+   "category": "student",
+   "purpose": "Studying at a designated learning institution for longer than 6 months.",
+   "limits": [],
+   "maxValidity": "Length of the program plus 90 days",
+   "note": "Allows some work while you study, with conditions.",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "PGWP",
+   "name": "Post-graduation work permit",
+   "category": "work",
+   "purpose": "Working in Canada after graduating from an eligible Canadian program.",
+   "limits": [],
+   "maxValidity": "Up to 3 years, depending on the program",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "EMPLOYER",
+   "name": "Employer-specific work permit",
+   "category": "work",
+   "purpose": "Working for one employer under the conditions on your permit (often needs an LMIA).",
+   "limits": [],
+   "maxValidity": "As on the permit (usually the length of the job offer)",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/employer-specific.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "OPEN",
+   "name": "Open work permit",
+   "category": "work",
+   "purpose": "Working for almost any employer — e.g. spouses of skilled workers or students, people waiting for permanent residence.",
+   "limits": [],
+   "maxValidity": "As on the permit",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/open-work-permit.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "IEC",
+   "name": "International Experience Canada (working holiday, young professionals, co-op)",
+   "category": "work",
+   "purpose": "Young people (usually 18–35) from partner countries travelling and working in Canada.",
+   "limits": [],
+   "maxValidity": "Usually 12 to 24 months, depending on your country",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/iec.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "PRWAIT",
+   "name": "Work permit while waiting for permanent residence",
+   "category": "work",
+   "purpose": "Working while your permanent residence application is processed (bridging open work permit).",
+   "limits": [],
+   "maxValidity": "As on the permit",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/pr-work-permits.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "FAMILYWORK",
+   "name": "Open work permit for family of foreign workers",
+   "category": "work",
+   "purpose": "Spouses, common-law partners and dependent children of foreign workers in Canada.",
+   "limits": [],
+   "maxValidity": "Matches the principal worker",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/special-instructions/spouses-dependent-children.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "EXPRESSENTRY",
+   "name": "Express Entry (permanent residence)",
+   "category": "immigrant",
+   "purpose": "Skilled workers: Federal Skilled Worker, Canadian Experience Class and Federal Skilled Trades.",
+   "limits": [],
+   "maxValidity": "Permanent residence",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "PNP",
+   "name": "Provincial Nominee Program",
+   "category": "immigrant",
+   "purpose": "Permanent residence nominated by a province or territory for its labour needs.",
+   "limits": [],
+   "maxValidity": "Permanent residence",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/provincial-nominees.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "ATLANTIC",
+   "name": "Atlantic Immigration Program",
+   "category": "immigrant",
+   "purpose": "Permanent residence with a job offer in New Brunswick, Nova Scotia, PEI or Newfoundland and Labrador.",
+   "limits": [],
+   "maxValidity": "Permanent residence",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/atlantic-immigration.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "RURAL",
+   "name": "Rural and Francophone Community Immigration Pilots",
+   "category": "immigrant",
+   "purpose": "Permanent residence with a job in a participating rural or francophone community.",
+   "limits": [],
+   "maxValidity": "Permanent residence",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/rural-franco-pilots.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "QUEBEC",
+   "name": "Quebec-selected skilled workers, investors and entrepreneurs",
+   "category": "immigrant",
+   "purpose": "Permanent residence through selection by Quebec.",
+   "limits": [],
+   "maxValidity": "Permanent residence",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/quebec-skilled-workers.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "CAREGIVERS",
+   "name": "Caregivers (permanent residence)",
+   "category": "immigrant",
+   "purpose": "Home child-care and home support workers.",
+   "limits": [],
+   "maxValidity": "Permanent residence",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/caregivers.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "DOCTORS",
+   "name": "Medical doctors (permanent residence)",
+   "category": "immigrant",
+   "purpose": "Physicians with Canadian work experience.",
+   "limits": [],
+   "maxValidity": "Permanent residence",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/medical-doctors.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "FAMILY",
+   "name": "Family sponsorship",
+   "category": "immigrant",
+   "purpose": "Spouses, partners, dependent children, parents and grandparents sponsored by a Canadian citizen or permanent resident.",
+   "limits": [],
+   "maxValidity": "Permanent residence",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "STARTUP",
+   "name": "Start-up Visa / Self-employed persons",
+   "category": "immigrant",
+   "purpose": "Entrepreneurs with an innovative business, or self-employed people in culture or athletics.",
+   "limits": [],
+   "maxValidity": "Permanent residence",
+   "note": "Both programs were paused when last checked.",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/start-visa.html",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "PRCARD",
+   "name": "Permanent resident card",
+   "category": "residence",
+   "purpose": "Proof of permanent resident status for travelling back to Canada.",
+   "limits": [],
+   "maxValidity": "Card usually valid 5 years",
+   "note": "No day count, but you must live in Canada at least 730 days in every 5 years to keep the status.",
+   "src": "https://www.canada.ca/en/immigration-refugees-citizenship/services/permanent-residents.html",
+   "checked": "2026-10-08"
+  }
+ ]
+}
