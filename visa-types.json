@@ -914,6 +914,86 @@
     "checked": "2026-10-08"
    }
   ],
+  "CY": [
+   {
+    "id": "VISAFREE",
+    "name": "Visa-free short stay",
+    "category": "tourist",
+    "purpose": "Short stays for nationalities that do not need a Cyprus visa (e.g. Serbia, the US, the UK).",
+    "limits": [
+     {
+      "kind": "rolling",
+      "days": 90,
+      "window": 180
+     }
+    ],
+    "entries": "multiple",
+    "note": "Up to 90 days in any 180-day period in Cyprus. Valid only for the Republic of Cyprus until Cyprus fully joins Schengen; days in Cyprus do not count towards the Schengen 90/180.",
+    "src": "https://www.gov.cy/en/information/visas/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "C",
+    "name": "Short-stay visa (type C, 1 or 2 entries)",
+    "category": "tourist",
+    "purpose": "Tourism, business or family visits of up to 90 days.",
+    "limits": [
+     {
+      "kind": "rolling",
+      "days": 90,
+      "window": 180
+     }
+    ],
+    "entries": "varies",
+    "note": "Valid only for the Republic of Cyprus until Cyprus fully joins Schengen; days in Cyprus do not count towards the Schengen 90/180.",
+    "src": "https://www.gov.cy/en/information/visas/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "CMEV",
+    "name": "Multiple-entry short-stay visa (type C – MEV)",
+    "category": "tourist",
+    "purpose": "Frequent travellers to Cyprus with a good visa history.",
+    "limits": [
+     {
+      "kind": "rolling",
+      "days": 90,
+      "window": 180
+     }
+    ],
+    "maxValidity": "6 months to 5 years",
+    "entries": "multiple",
+    "note": "Never more than 90 days in any 180-day period. Valid only for the Republic of Cyprus until Cyprus fully joins Schengen; days in Cyprus do not count towards the Schengen 90/180.",
+    "src": "https://www.gov.cy/en/information/visas/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "LTV",
+    "name": "Border visa for transit or short stay (type C – LTV)",
+    "category": "transit",
+    "purpose": "Issued at the border only in emergencies, with the approval of the Migration Department.",
+    "limits": [
+     {
+      "kind": "stay",
+      "days": 15
+     }
+    ],
+    "maxValidity": "Up to 15 days",
+    "entries": "single",
+    "src": "https://www.gov.cy/en/information/visas/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "A",
+    "name": "Airport transit visa (type A – ATV)",
+    "category": "transit",
+    "purpose": "Staying in the international transit zone of a Cypriot airport — for the nationalities that need it.",
+    "limits": [],
+    "note": "Does not allow entry into Cyprus.",
+    "src": "https://www.gov.cy/en/information/visas/",
+    "checked": "2026-10-08"
+   }
+  ],
   "GB": [
    {
     "id": "ETA",
