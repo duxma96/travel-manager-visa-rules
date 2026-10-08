@@ -1,0 +1,180 @@
+{
+ "country": "TR",
+ "types": [
+  {
+   "id": "VISAFREE",
+   "name": "Visa exemption",
+   "category": "tourist",
+   "purpose": "Tourism or business visits for nationalities exempt from a visa (e.g. Serbia, most of Europe).",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "entries": "multiple",
+   "note": "At most 90 days in any 180 days — binding for every foreigner, whatever the visa says. Passport valid 60 days beyond your allowed stay.",
+   "src": "https://www.mfa.gov.tr/general-information-about-turkish-visas.en.mfa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "EVISA",
+   "name": "e-Visa",
+   "category": "tourist",
+   "purpose": "Online visa for tourism or business for eligible nationalities, from the official site evisa.gov.tr only.",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "maxValidity": "Usually 180 days, single or multiple entry, for stays of 30 or 90 days",
+   "entries": "varies",
+   "approx": true,
+   "note": "Only for tourism or commerce. At most 90 days in any 180 days — binding for every foreigner, whatever the visa says. Passport valid 60 days beyond your allowed stay.",
+   "src": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "TOURIST",
+   "name": "Sticker visa — tourism or business",
+   "category": "tourist",
+   "purpose": "Tourism, business meetings, conferences, fairs, for those who cannot get an e-Visa.",
+   "limits": [
+    {
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
+    }
+   ],
+   "entries": "varies",
+   "note": "Consulates issue at most 90 days of stay. At most 90 days in any 180 days — binding for every foreigner, whatever the visa says. Passport valid 60 days beyond your allowed stay.",
+   "src": "https://www.mfa.gov.tr/pre-application-system-for-turkish-sticker-visa.en.mfa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "TRANSIT",
+   "name": "Transit visa",
+   "category": "transit",
+   "purpose": "Passing through Türkiye to another country (airport or land transit).",
+   "limits": [],
+   "entries": "varies",
+   "src": "https://www.mfa.gov.tr/pre-application-system-for-turkish-sticker-visa.en.mfa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "WORKVISA",
+   "name": "Work visa",
+   "category": "work",
+   "purpose": "Entry to take up a job; a work permit from the Ministry of Labour must be issued.",
+   "limits": [],
+   "maxValidity": "Up to 90 days, then a work permit",
+   "note": "Apply for the work permit within the first days after arrival.",
+   "src": "https://www.mfa.gov.tr/pre-application-system-for-turkish-sticker-visa.en.mfa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "STUDYVISA",
+   "name": "Study visa",
+   "category": "student",
+   "purpose": "Entry to study at a Turkish school or university; followed by a student residence permit.",
+   "limits": [],
+   "maxValidity": "Up to 90 days, then a student residence permit",
+   "src": "https://www.mfa.gov.tr/pre-application-system-for-turkish-sticker-visa.en.mfa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "OTHERVISA",
+   "name": "Other purpose visas",
+   "category": "other",
+   "purpose": "Journalism, archaeological excavation, documentary filming, official duty, crew, sporting and cultural events.",
+   "limits": [],
+   "maxValidity": "Depends on the purpose",
+   "src": "https://www.mfa.gov.tr/pre-application-system-for-turkish-sticker-visa.en.mfa",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "WORKPERMIT",
+   "name": "Work permit",
+   "category": "work",
+   "purpose": "Working in Türkiye for an employer, or as an independent professional; also counts as a residence permit.",
+   "limits": [],
+   "maxValidity": "Up to 1 year first, then up to 2 and 3 years; indefinite after 8 years",
+   "src": "https://en.goc.gov.tr/work-permit",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "TURQUOISE",
+   "name": "Turquoise Card",
+   "category": "work",
+   "purpose": "Highly qualified workers, investors, scientists, artists and athletes; leads to indefinite permission.",
+   "limits": [],
+   "maxValidity": "3-year transition period, then indefinite",
+   "src": "https://en.goc.gov.tr/work-permit",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "SHORTTERM",
+   "name": "Short-term residence permit",
+   "category": "residence",
+   "purpose": "Staying longer than 90 days for research, owning a home, business ties, training, exchange programmes, tourism, medical treatment and more.",
+   "limits": [],
+   "maxValidity": "Up to 2 years at a time, renewable",
+   "note": "No day count while the permit is valid.",
+   "src": "https://en.goc.gov.tr/residence-permit-types",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "FAMILY",
+   "name": "Family residence permit",
+   "category": "family",
+   "purpose": "Spouse, children and dependent children of a Turkish citizen or of a foreigner with a residence permit.",
+   "limits": [],
+   "maxValidity": "Up to 3 years at a time",
+   "src": "https://en.goc.gov.tr/residence-permit-types",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "STUDENT",
+   "name": "Student residence permit",
+   "category": "student",
+   "purpose": "Students in associate, bachelor, master or doctoral programmes at Turkish universities.",
+   "limits": [],
+   "maxValidity": "Length of the studies, renewed yearly",
+   "src": "https://en.goc.gov.tr/residence-permit-types",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "LONGTERM",
+   "name": "Long-term residence permit",
+   "category": "immigrant",
+   "purpose": "After at least 8 years of continuous legal residence in Türkiye.",
+   "limits": [],
+   "maxValidity": "Indefinite",
+   "src": "https://en.goc.gov.tr/residence-permit-types",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "HUMANITARIAN",
+   "name": "Humanitarian residence permit",
+   "category": "other",
+   "purpose": "Granted in special cases, e.g. the best interest of a child, or when someone cannot be removed.",
+   "limits": [],
+   "maxValidity": "Up to 1 year at a time",
+   "src": "https://en.goc.gov.tr/residence-permit-types",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "TRAFFICKING",
+   "name": "Residence permit for victims of human trafficking",
+   "category": "other",
+   "purpose": "Victims of human trafficking, to recover and decide whether to cooperate with the authorities.",
+   "limits": [],
+   "maxValidity": "30 days, extendable up to 3 years",
+   "src": "https://en.goc.gov.tr/victims-of-human-trafficking2019",
+   "checked": "2026-10-08"
+  }
+ ]
+}
