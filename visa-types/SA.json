@@ -27,15 +27,8 @@
    "category": "tourist",
    "purpose": "Tourist visa issued on arrival to eligible nationalities, or to holders of a valid US, UK or Schengen visa.",
    "who": "Eligible nationalities / US-UK-Schengen visa holders",
-   "limits": [
-    {
-     "kind": "stay",
-     "days": 90
-    }
-   ],
-   "maxValidity": "1 year",
-   "entries": "multiple",
-   "approx": true,
+   "limits": [],
+   "maxValidity": "Per tourist visa rules",
    "note": "Eligibility depends on nationality; check the visa regulations page.",
    "src": "https://www.visitsaudi.com/en/plan-your-trip/visa-regulations",
    "checked": "2026-10-08"
@@ -160,17 +153,6 @@
    "entries": "single",
    "note": "Visit, tourist and work visas do not permit Hajj. Residents need ID or Iqama.",
    "src": "https://haj.gov.sa/en/FAQ",
-   "checked": "2026-10-08"
-  },
-  {
-   "id": "IQAMA",
-   "name": "Residence permit (Iqama)",
-   "category": "residence",
-   "purpose": "Residence and work permit issued after arrival on a work or family entry visa.",
-   "who": "Foreign residents",
-   "limits": [],
-   "entries": "multiple",
-   "src": "https://my.gov.sa/en/content/tourism",
    "checked": "2026-10-08"
   },
   {
