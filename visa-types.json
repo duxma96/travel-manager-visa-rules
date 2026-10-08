@@ -1308,6 +1308,261 @@
     "checked": "2026-10-08"
    }
   ],
+  "IE": [
+   {
+    "id": "VISAFREE",
+    "name": "Visa-free visit",
+    "category": "tourist",
+    "purpose": "Tourism, visiting family or business meetings for nationalities that do not need an Irish visa (e.g. Serbia, the US, the EU).",
+    "limits": [
+     {
+      "kind": "stay",
+      "days": 90
+     }
+    ],
+    "approx": true,
+    "note": "Up to 90 days, as stamped by the immigration officer at the border. Ireland is not in the Schengen area — days here do not count towards the 90/180 rule.",
+    "src": "https://www.irishimmigration.ie/coming-to-visit-ireland/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "C",
+    "name": "Short Stay 'C' visa",
+    "category": "tourist",
+    "purpose": "Visits of less than 90 days: tourism, family, business, short courses, conferences.",
+    "limits": [
+     {
+      "kind": "stay",
+      "days": 90
+     }
+    ],
+    "maxValidity": "Single or multiple entry, up to 5 years for frequent travellers",
+    "entries": "varies",
+    "approx": true,
+    "note": "The border officer decides how long you may stay, at most 90 days.",
+    "src": "https://www.irishimmigration.ie/how-to-apply-for-a-short-stay-c-visit-tourist-visa/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "BIVS",
+    "name": "British Irish Visa Scheme",
+    "category": "tourist",
+    "purpose": "One UK visa that also lets nationals of India and China travel to Ireland.",
+    "limits": [
+     {
+      "kind": "stay",
+      "days": 90
+     }
+    ],
+    "approx": true,
+    "src": "https://www.irishimmigration.ie/british-irish-visa-scheme/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "TRANSIT",
+    "name": "Transit visa",
+    "category": "transit",
+    "purpose": "Changing flights at an Irish airport — for the nationalities that need it.",
+    "limits": [],
+    "note": "Does not allow you to leave the airport.",
+    "src": "https://www.irishimmigration.ie/coming-to-visit-ireland/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "D",
+    "name": "Long Stay 'D' visa",
+    "category": "other",
+    "purpose": "Coming for more than 90 days to study, work or join family; you then register for a residence permission (Stamp).",
+    "limits": [],
+    "maxValidity": "Single entry; residence is then set by your Stamp",
+    "src": "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-visa-options/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "CSEP",
+    "name": "Critical Skills Employment Permit",
+    "category": "work",
+    "purpose": "Highly skilled jobs on the Critical Skills Occupations List, or other jobs above a high salary threshold.",
+    "limits": [],
+    "maxValidity": "2 years, then Stamp 4",
+    "src": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "GEP",
+    "name": "General Employment Permit",
+    "category": "work",
+    "purpose": "Jobs not on the Ineligible Occupations List, with a labour market needs test.",
+    "limits": [],
+    "maxValidity": "Up to 2 years, renewable up to 3 more",
+    "src": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/general-employment-permit/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "ICT",
+    "name": "Intra-Company Transfer Employment Permit",
+    "category": "work",
+    "purpose": "Senior managers, key staff and trainees moving to the Irish branch of their employer.",
+    "limits": [],
+    "maxValidity": "Up to 2 years, extendable to 5",
+    "src": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/intra-company-transfer-employment-permit/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "DPS",
+    "name": "Dependant / Partner / Spouse Employment Permit",
+    "category": "work",
+    "purpose": "Spouses, partners and dependants of Critical Skills permit holders and some researchers.",
+    "limits": [],
+    "maxValidity": "Matches the main permit holder",
+    "src": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/dependant-partner-spouse-employment-permit/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "REACTIVATION",
+    "name": "Reactivation Employment Permit",
+    "category": "work",
+    "purpose": "People who fell out of the employment permit system through no fault of their own.",
+    "limits": [],
+    "maxValidity": "Up to 2 years",
+    "src": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/reactivation-employment-permit/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "CFS",
+    "name": "Contract for Services Employment Permit",
+    "category": "work",
+    "purpose": "Employees of foreign companies working on a contract for an Irish company.",
+    "limits": [],
+    "maxValidity": "Up to 2 years",
+    "src": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/contract-for-services-employment-permit/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "INTERNSHIP",
+    "name": "Internship Employment Permit",
+    "category": "work",
+    "purpose": "Full-time students at a third-level institution outside Ireland doing work experience.",
+    "limits": [],
+    "maxValidity": "Up to 12 months",
+    "src": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/internship-employment-permit/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "SPORT",
+    "name": "Sport and Cultural Employment Permit",
+    "category": "work",
+    "purpose": "Work in sport or culture that adds to the quality of Irish sport and cultural life.",
+    "limits": [],
+    "maxValidity": "Up to 2 years",
+    "src": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/sport-and-cultural-employment-permit/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "EXCHANGE",
+    "name": "Exchange Agreement Employment Permit",
+    "category": "work",
+    "purpose": "Work under international exchange agreements, such as the Fulbright programme or AIESEC.",
+    "limits": [],
+    "maxValidity": "Up to 12 months",
+    "src": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/exchange-agreement-employment-permit/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "WHA",
+    "name": "Working Holiday Authorisation",
+    "category": "work",
+    "purpose": "Young people (usually 18–30) from partner countries holidaying and working in Ireland.",
+    "limits": [],
+    "maxValidity": "Usually 12 months (2 years for some countries)",
+    "src": "https://www.dfa.ie/travel/visas/working-holiday-authorisations/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "STAMP2",
+    "name": "Student permission (Stamp 2 / 2A)",
+    "category": "student",
+    "purpose": "Full-time study on an approved course (Stamp 2); Stamp 2A for courses not on the list, no work.",
+    "limits": [],
+    "maxValidity": "Length of the course, with study time limits",
+    "note": "Stamp 2 allows up to 20 hours of work a week in term time.",
+    "src": "https://www.irishimmigration.ie/registering-your-immigration-permission/information-on-registering/immigration-permission-stamps/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "STAMP1G",
+    "name": "Third Level Graduate Programme (Stamp 1G)",
+    "category": "work",
+    "purpose": "Graduates of Irish third-level degrees looking for work.",
+    "limits": [],
+    "maxValidity": "12 months (24 months after a master's or higher)",
+    "src": "https://www.irishimmigration.ie/my-situation-has-changed-since-i-arrived-in-ireland/third-level-graduate-programme/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "STAMP0",
+    "name": "Stamp 0 — temporary stay without work",
+    "category": "residence",
+    "purpose": "Retiring to Ireland, dependent adult relatives, visiting academics.",
+    "limits": [],
+    "maxValidity": "Usually 1 year at a time",
+    "note": "No work allowed. Not reckonable for citizenship.",
+    "src": "https://www.irishimmigration.ie/living-in-ireland/i-want-to-retire-to-ireland/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "STAMP1",
+    "name": "Stamp 1 — work or business permission",
+    "category": "residence",
+    "purpose": "Living in Ireland on an employment permit, business permission or working holiday.",
+    "limits": [],
+    "maxValidity": "Matches your permit",
+    "src": "https://www.irishimmigration.ie/registering-your-immigration-permission/information-on-registering/immigration-permission-stamps/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "STAMP3",
+    "name": "Stamp 3 — family of a permit holder",
+    "category": "family",
+    "purpose": "Spouses, partners and children of employment permit holders and some researchers or religious ministers.",
+    "limits": [],
+    "maxValidity": "Matches the family member",
+    "src": "https://www.irishimmigration.ie/coming-to-join-family-in-ireland/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "STAMP4",
+    "name": "Stamp 4 — long-term residence",
+    "category": "residence",
+    "purpose": "Living and working freely, e.g. after 2 years on a Critical Skills permit, spouses of Irish citizens, long-term residents.",
+    "limits": [],
+    "maxValidity": "Usually 1–5 years, renewable",
+    "note": "No employment permit needed.",
+    "src": "https://www.irishimmigration.ie/registering-your-immigration-permission/information-on-registering/immigration-permission-stamps/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "STAMP5",
+    "name": "Stamp 5 — without condition as to time",
+    "category": "immigrant",
+    "purpose": "Residence without time limit after at least 8 years of lawful residence.",
+    "limits": [],
+    "maxValidity": "Without time limit (until the passport expires)",
+    "src": "https://www.irishimmigration.ie/registering-your-immigration-permission/information-on-registering/immigration-permission-stamps/",
+    "checked": "2026-10-08"
+   },
+   {
+    "id": "INVEST",
+    "name": "Investor and entrepreneur routes",
+    "category": "business",
+    "purpose": "Starting an innovative business (Start-up Entrepreneur Programme) or investing in Ireland.",
+    "limits": [],
+    "maxValidity": "Usually 2 years, renewable",
+    "note": "The Immigrant Investor Programme closed to new applications in 2023.",
+    "src": "https://www.irishimmigration.ie/living-in-ireland/i-want-to-invest-in-ireland/",
+    "checked": "2026-10-08"
+   }
+  ],
   "JP": [
    {
     "id": "EXEMPT",
