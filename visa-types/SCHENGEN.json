@@ -6,6 +6,7 @@
    "name": "Visa-free short stay",
    "category": "tourist",
    "purpose": "Short stays for nationalities that do not need a Schengen visa (e.g. Serbia, the US, the UK).",
+   "who": "Nationals of visa-exempt countries (e.g. Serbia, the US, the UK)",
    "limits": [
     {
      "kind": "rolling",
@@ -23,6 +24,7 @@
    "name": "ETIAS travel authorisation",
    "category": "tourist",
    "purpose": "Online authorisation that visa-free travellers will need before a short stay.",
+   "who": "Nationals of visa-exempt countries, once ETIAS starts",
    "limits": [
     {
      "kind": "rolling",
@@ -41,6 +43,7 @@
    "name": "Uniform Schengen visa (type C)",
    "category": "tourist",
    "purpose": "Short stays for tourism, business, family visits or events in the Schengen area.",
+   "who": "Nationals of countries that need a Schengen visa",
    "limits": [
     {
      "kind": "rolling",
@@ -59,6 +62,7 @@
    "name": "Visa with limited territorial validity (LTV)",
    "category": "other",
    "purpose": "Exceptional short-stay visa valid only for the Schengen country (or countries) named on it.",
+   "who": "Exceptional cases decided by one Schengen country",
    "limits": [
     {
      "kind": "rolling",
@@ -76,6 +80,7 @@
    "name": "Airport transit visa (type A)",
    "category": "transit",
    "purpose": "Changing planes in the international zone of a Schengen airport — for nationalities that need it.",
+   "who": "Nationals of countries on the airport-transit list",
    "limits": [],
    "entries": "varies",
    "note": "Does not allow entry into the Schengen area.",
@@ -87,6 +92,7 @@
    "name": "National long-stay visa (type D)",
    "category": "other",
    "purpose": "Stays over 90 days in one Schengen country (study, work, family), issued by that country under its own rules.",
+   "who": "Anyone with a long-stay reason accepted by that country",
    "limits": [],
    "maxValidity": "Up to 1 year",
    "entries": "multiple",
@@ -100,6 +106,7 @@
    "name": "Residence permit of a Schengen country",
    "category": "residence",
    "purpose": "Living in a Schengen country (work, study, family, long-term residence, EU Blue Card).",
+   "who": "Anyone granted residence by a Schengen country",
    "limits": [],
    "maxValidity": "Depends on the permit",
    "note": "No day count in the issuing country; up to 90 days in any 180 in the other Schengen countries.",
