@@ -20,8 +20,8 @@ Visa rules for every passport and the visa types of every country, used by the T
 - `build-types.mjs` — validates every file and builds `visa-types.json`; `check-links.mjs [CC…]` checks every link
   (sites that block scripts are listed for a manual look).
 
-Researched so far: SCHENGEN, US, GB, CA, AU, NZ, JP, IE, CY (short stay only), TR, AE.
-Still to do, in this order: KR, CN, IN, SA, QA, RU, UA, IL, EG, MA, TH, VN, ID, MY, SG, MX, BR, AR, ZA,
+Researched so far: SCHENGEN, US, GB, CA, AU, NZ, JP, IE, CY (short stay only), TR, AE, KR, CN, IN, SA, QA.
+Still to do, in this order: RU, UA, IL, EG, MA, TH, VN, ID, MY, SG, MX, BR, AR, ZA,
 CY residence permits — then every other country.
 
 **Sources:** [passport-index-data](https://github.com/imorte/passport-index-data) (MIT) for whether a visa is

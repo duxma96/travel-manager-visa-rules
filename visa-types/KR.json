@@ -1,0 +1,270 @@
+{
+ "country": "KR",
+ "types": [
+  {
+   "id": "KETA",
+   "name": "K-ETA (Korea Electronic Travel Authorization)",
+   "category": "tourist",
+   "purpose": "Online pre-travel authorisation for short stays (tourism, visiting relatives, events, meetings, non-profit business) without a visa.",
+   "who": "Nationals of visa-free countries that are not exempt",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 90
+    }
+   ],
+   "maxValidity": "3 years, or until passport expiry if sooner",
+   "entries": "multiple",
+   "approx": true,
+   "note": "Usually 90 days per stay but depends on nationality (some 30 days). Several nationalities are temporarily exempt; check the current list. Not a visa; entry decided at the border.",
+   "src": "https://overseas.mofa.go.kr/fi-en/brd/m_9574/view.do?seq=754918&page=1",
+   "apply": "https://www.k-eta.go.kr",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "C3-9",
+   "name": "Short-term visit, general tourist (C-3-9)",
+   "category": "tourist",
+   "purpose": "Tourism, visiting relatives or recuperation for up to 90 days, for nationalities that need a visa.",
+   "who": "Nationals who need a visa",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 90
+    }
+   ],
+   "entries": "varies",
+   "approx": true,
+   "note": "Some nationalities are granted a shorter stay (e.g. 30 days).",
+   "src": "https://overseas.mofa.go.kr/us-newyork-en/brd/m_25545/view.do?seq=13&page=1",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "C3-1",
+   "name": "Short-term visit for events or meetings (C-3-1)",
+   "category": "tourist",
+   "purpose": "Short stay to attend events or meetings, perform cultural arts, take lessons or training, or similar.",
+   "who": "Visitors with an event, meeting or short course",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 90
+    }
+   ],
+   "maxValidity": "90 days (single entry), per consulate page",
+   "entries": "single",
+   "src": "https://www.mofa.go.kr/us-seattle-en/brd/m_23042/view.do?seq=49",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "C3-4",
+   "name": "Short-term business visitor (C-3-4)",
+   "category": "business",
+   "purpose": "Business meetings, market research, liaison work, consultations or contract signing.",
+   "who": "Business visitors",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 90
+    }
+   ],
+   "entries": "varies",
+   "note": "Multiple entry only if the Korean inviting company requests it with a reason.",
+   "src": "https://overseas.mofa.go.kr/us-sanfrancisco-en/brd/m_24317/view.do?seq=3&page=1",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "B2-TRANSIT",
+   "name": "Visa-free transit tourism (B-2)",
+   "category": "transit",
+   "purpose": "Visa-free entry for passengers travelling through Korea to a third country with an onward ticket.",
+   "who": "Eligible nationalities holding a valid visa or residence for certain countries",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 30
+    }
+   ],
+   "approx": true,
+   "note": "Third-country program: up to 30 days with a flight out within 30 days. Separate Incheon transit tour: connecting flight within 72 hours. Some nationalities excluded; the consulate cannot confirm eligibility.",
+   "src": "https://overseas.mofa.go.kr/ca-en/brd/m_5238/view.do?seq=727682&page=1",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "JEJU",
+   "name": "Visa-free entry to Jeju Island",
+   "category": "tourist",
+   "purpose": "Visa-free entry for visa-required nationals arriving on a direct flight to Jeju.",
+   "who": "Visa-required nationals (23 countries excluded)",
+   "limits": [],
+   "note": "Stay length not stated on the official page found; call the Immigration Call Center (+82-2-6908-1345). Applies to direct flights to Jeju only.",
+   "src": "https://overseas.mofa.go.kr/sg-en/brd/m_2435/view.do?seq=761394&page=1",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "F1-D",
+   "name": "Workation / digital nomad (F-1-D)",
+   "category": "other",
+   "purpose": "Remote work for a foreign employer or own foreign company while living in Korea.",
+   "who": "Remote workers with foreign employment of 1+ year and sufficient income",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 365
+    }
+   ],
+   "maxValidity": "1 year, multiple entry; extendable up to 1 year",
+   "entries": "multiple",
+   "note": "No work for Korean employers or profit-making work in Korea. Income at least twice previous-year GNI per capita.",
+   "src": "https://www.mofa.go.kr/il-en/brd/m_23222/view.do?seq=20",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "D2",
+   "name": "Student, degree study (D-2)",
+   "category": "student",
+   "purpose": "Study for a degree, research or exchange at a Korean university.",
+   "who": "Students admitted to a Korean university",
+   "limits": [],
+   "maxValidity": "Initial stay up to 2 years, per Certificate of Admission; visa typically single entry valid 3 months",
+   "entries": "varies",
+   "note": "Foreigner registration within 90 days if staying over 91 days; multiple entry possible afterwards.",
+   "src": "https://overseas.mofa.go.kr/no-en/brd/m_25413/view.do?seq=7&page=1",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "D2-8",
+   "name": "Visiting student, under 1 year (D-2-8)",
+   "category": "student",
+   "purpose": "Study at a Korean university for up to one year while enrolled at an overseas university.",
+   "who": "Overseas degree students on exchange or self-funded",
+   "limits": [],
+   "maxValidity": "Up to 12 months, per Certificate of Admission",
+   "entries": "varies",
+   "note": "Required even for summer or winter programmes under 90 days if credits are earned.",
+   "src": "https://www.mofa.go.kr/us-losangeles-en/brd/m_26384/view.do?seq=4",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "D10-1",
+   "name": "Job seeker (D-10-1)",
+   "category": "work",
+   "purpose": "Seeking employment or training in fields eligible for E-1 to E-7 visas.",
+   "who": "Points-qualified graduates or ex-employees of listed firms",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 180
+    }
+   ],
+   "maxValidity": "Single entry valid 3 months",
+   "entries": "single",
+   "note": "Stay of 6 months or less; needs at least 60 points.",
+   "src": "https://www.mofa.go.kr/my-en/brd/m_26576/view.do?seq=11&page=1",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "H1",
+   "name": "Working Holiday (H-1)",
+   "category": "work",
+   "purpose": "Travel with incidental work under a bilateral working holiday agreement.",
+   "who": "Young people from partner countries",
+   "limits": [],
+   "maxValidity": "Varies by country (e.g. up to 18 months for US citizens)",
+   "note": "US: ages 18-30, quota 2,000, enter within 12 months of issue. No professional jobs; language teaching needs E-2. Terms vary by country.",
+   "src": "https://www.mofa.go.kr/us-seattle-en/brd/m_23042/view.do?seq=50&page=2",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "E1",
+   "name": "Professor (E-1)",
+   "category": "work",
+   "purpose": "Lecturing or research at a college or university.",
+   "who": "University teachers",
+   "limits": [],
+   "maxValidity": "5 years, extendable (per Immigration Service guide)",
+   "src": "https://www.immigration.go.kr/bbs/immigration_eng/230/454085/download.do",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "E2",
+   "name": "Foreign language instructor (E-2)",
+   "category": "work",
+   "purpose": "Teaching foreign language conversation at schools or institutes.",
+   "who": "Language teachers",
+   "limits": [],
+   "maxValidity": "2 years, extendable (per Immigration Service guide)",
+   "src": "https://www.immigration.go.kr/bbs/immigration_eng/230/454085/download.do",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "E7",
+   "name": "Specially designated activities (E-7)",
+   "category": "work",
+   "purpose": "Work in occupations designated by the Minister of Justice for a Korean employer.",
+   "who": "Professionals and skilled workers with a contract",
+   "limits": [],
+   "maxValidity": "3 years, extendable (per Immigration Service guide)",
+   "note": "Usually needs a Certificate of Visa Issuance Confirmation from Korean immigration first.",
+   "src": "https://overseas.mofa.go.kr/fi-en/brd/m_20979/view.do?seq=5",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "E9",
+   "name": "Non-professional employment (E-9)",
+   "category": "work",
+   "purpose": "Unskilled work in manufacturing, construction, agriculture, fishing and services under the Employment Permit System.",
+   "who": "Workers from designated sending countries",
+   "limits": [],
+   "maxValidity": "3 years, extendable (per Immigration Service guide)",
+   "src": "https://www.immigration.go.kr/bbs/immigration_eng/230/454085/download.do",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "F6",
+   "name": "Marriage migrant (F-6)",
+   "category": "family",
+   "purpose": "Living in Korea as spouse of a Korean national, or as parent raising a Korean citizen's child.",
+   "who": "Spouses and parents of Korean nationals",
+   "limits": [],
+   "maxValidity": "Consulate visa single entry up to 90 days; stay 3 years once extended in Korea",
+   "note": "No employment restrictions.",
+   "src": "https://overseas.mofa.go.kr/gr-en/brd/m_23224/view.do?seq=6&page=1",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "F2",
+   "name": "Resident (F-2)",
+   "category": "residence",
+   "purpose": "Long-term residence, e.g. for family of Korean or permanent-resident nationals, recognised refugees, and points-based residents.",
+   "who": "Eligible long-term residents",
+   "limits": [],
+   "note": "Partial employment restrictions.",
+   "src": "https://www.immigration.go.kr/bbs/immigration_eng/230/454085/download.do",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "F4",
+   "name": "Overseas Korean (F-4)",
+   "category": "residence",
+   "purpose": "Residence for people of Korean heritage with foreign nationality.",
+   "who": "Overseas Koreans",
+   "limits": [],
+   "note": "Employment restricted for simple labour and some workplaces.",
+   "src": "https://www.immigration.go.kr/bbs/immigration_eng/230/454085/download.do",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "F5",
+   "name": "Permanent resident (F-5)",
+   "category": "immigrant",
+   "purpose": "Permanent residence with no restrictions on activities, including employment.",
+   "who": "Long-term residents, e.g. 5+ years in F-2",
+   "limits": [],
+   "maxValidity": "Permanent; card valid 10 years",
+   "note": "Re-entry permit exemption: 2 years for F-5 holders.",
+   "src": "https://www.immigration.go.kr/bbs/immigration_eng/230/454085/download.do",
+   "checked": "2026-10-08"
+  }
+ ]
+}

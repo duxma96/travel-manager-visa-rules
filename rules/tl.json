@@ -2,7 +2,7 @@
  "format": "tm-visa-rules",
  "version": 1,
  "passport": "TL",
- "generated": "2026-10-07",
+ "generated": "2026-10-08",
  "source": "passport-index-data (MIT) + checked overrides",
  "rules": {
   "AL": {
@@ -816,7 +816,7 @@
    ],
    "note": "Schengen area: 90 days in any 180.",
    "src": "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/border-crossing_en",
-   "checked": "2026-10-07"
+   "checked": "2026-10-08"
   }
  }
 }

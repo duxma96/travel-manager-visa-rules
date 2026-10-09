@@ -2,7 +2,7 @@
  "format": "tm-visa-rules",
  "version": 1,
  "passport": "RS",
- "generated": "2026-10-07",
+ "generated": "2026-10-08",
  "source": "passport-index-data (MIT) + checked overrides",
  "rules": {
   "AL": {
@@ -14,11 +14,16 @@
      "window": 180
     }
    ],
-   "approx": true
+   "note": "Visa-free for 90 days within 180 days counted from first entry; ID card also accepted.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/albanija",
+   "checked": "2026-10-08"
   },
   "DZ": {
    "req": "required",
-   "limits": []
+   "limits": [],
+   "note": "Visa required from the Algerian embassy in Belgrade with no eVisa or arrival option; no stay length stated for ordinary passports and passport valid 6 months after travel.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/algeria",
+   "checked": "2026-10-08"
   },
   "AD": {
    "req": "free",
@@ -29,21 +34,31 @@
      "window": 180
     }
    ],
-   "approx": true
+   "passportDays": 90,
+   "note": "Visa-free for up to 90 days in any 180; passport must stay valid at least 3 months after you leave Andorra.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/andorra",
+   "checked": "2026-10-08"
   },
   "AO": {
    "req": "required",
-   "limits": []
+   "limits": [],
+   "passportDays": 180,
+   "note": "Visa required for ordinary passports; passport must be valid for more than 6 months; no stay length stated.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/angola",
+   "checked": "2026-10-08"
   },
   "AG": {
    "req": "free",
    "limits": [
     {
-     "kind": "stay",
-     "days": 180
+     "kind": "rolling",
+     "days": 90,
+     "window": 180
     }
    ],
-   "approx": true
+   "note": "No visa for visits of up to 90 days within 180 days.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/antigua-and-barbuda",
+   "checked": "2026-10-08"
   },
   "AR": {
    "req": "free",
@@ -54,32 +69,41 @@
      "window": 180
     }
    ],
-   "approx": true
+   "note": "Page says both 3 months and 90 days for tourist stays; counted here as 90 in any 180 (stricter reading).",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/argentina",
+   "checked": "2026-10-08"
   },
   "AM": {
    "req": "free",
    "limits": [
     {
-     "kind": "stay",
-     "days": 180
+     "kind": "rolling",
+     "days": 180,
+     "window": 365
     }
    ],
-   "approx": true
+   "note": "Visa-free for up to 180 days within one year (read as 180 in any 365 days).",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/armenia",
+   "checked": "2026-10-08"
   },
   "AU": {
-   "req": "evisa",
-   "limits": []
+   "req": "required",
+   "limits": [],
+   "note": "Visa required before travel; types and stay length are in the Australian visa finder.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/australia",
+   "checked": "2026-10-08"
   },
   "AZ": {
    "req": "free",
    "limits": [
     {
-     "kind": "rolling",
-     "days": 90,
-     "window": 180
+     "kind": "stay",
+     "days": 90
     }
    ],
-   "approx": true
+   "note": "Visa-free for up to 90 days; entry by air only because land borders are closed to Serbian citizens.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/azerbaijan",
+   "checked": "2026-10-08"
   },
   "BS": {
    "req": "evisa",
@@ -87,107 +111,171 @@
   },
   "BH": {
    "req": "evisa",
-   "limits": []
+   "limits": [],
+   "note": "A visa is required and can be applied for online as an e-visa; the Serbian page states no length of stay.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/bahrain",
+   "checked": "2026-10-08"
   },
   "BD": {
-   "req": "arrival",
-   "limits": []
+   "req": "required",
+   "limits": [],
+   "passportDays": 180,
+   "note": "Visa required in advance (Serbian page names the Bangladesh embassy in Rome); passport valid 6 months; no stay length stated.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/bangladesh",
+   "checked": "2026-10-08"
   },
   "BB": {
    "req": "free",
    "limits": [
     {
-     "kind": "rolling",
-     "days": 90,
-     "window": 180
+     "kind": "stay",
+     "days": 90
     }
    ],
-   "approx": true
+   "note": "No visa for a stay of up to 90 days.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/barbados",
+   "checked": "2026-10-08"
   },
   "BY": {
    "req": "free",
    "limits": [
     {
-     "kind": "rolling",
-     "days": 30,
-     "window": 180
+     "kind": "stay",
+     "days": 30
+    },
+    {
+     "kind": "year",
+     "days": 90
     }
    ],
-   "approx": true
+   "note": "Visa-free for up to 30 days per stay and 90 days per calendar year; longer stays need a visa.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/belarus",
+   "checked": "2026-10-08"
   },
   "BZ": {
    "req": "required",
-   "limits": []
+   "limits": [],
+   "note": "A visa is required; the Serbian page states no length of stay.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/belize",
+   "checked": "2026-10-08"
   },
   "BJ": {
-   "req": "evisa",
-   "limits": []
+   "req": "required",
+   "limits": [],
+   "note": "A visa is required (apply on the official e-visa site); the Serbian page states no length of stay for ordinary passports.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/benin",
+   "checked": "2026-10-08"
   },
   "BT": {
-   "req": "evisa",
-   "limits": []
+   "req": "required",
+   "limits": [],
+   "passportDays": 180,
+   "note": "A visa is required and is arranged through a registered Bhutanese tour agency; no stay length stated.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/bhutan",
+   "checked": "2026-10-08"
   },
   "BO": {
-   "req": "evisa",
-   "limits": []
+   "req": "required",
+   "limits": [
+    {
+     "kind": "year",
+     "days": 180
+    }
+   ],
+   "note": "A visa from a Bolivian mission is required; the stay may be extended up to 180 days in a single year (initial stay not stated).",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/bolivia",
+   "checked": "2026-10-08"
   },
   "BA": {
    "req": "free",
    "limits": [
     {
-     "kind": "rolling",
-     "days": 90,
-     "window": 180
+     "kind": "stay",
+     "days": 90
     }
    ],
-   "approx": true
+   "note": "No visa; up to 90 days counted from entry; ID card or passport accepted (children need a passport).",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/bosnia-and-herzegovina",
+   "checked": "2026-10-08"
   },
   "BW": {
-   "req": "evisa",
-   "limits": []
+   "req": "required",
+   "limits": [],
+   "passportDays": 180,
+   "note": "A visa is required; the Serbian page states no length of stay.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/botswana",
+   "checked": "2026-10-08"
   },
   "BR": {
    "req": "free",
    "limits": [
     {
-     "kind": "rolling",
-     "days": 90,
-     "window": 180
+     "kind": "stay",
+     "days": 90
+    },
+    {
+     "kind": "year",
+     "days": 180
     }
    ],
-   "approx": true
+   "note": "Visa-free for up to 90 days, extendable by 90, but no more than 180 days per year counted from first entry; work is not allowed.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/brazil",
+   "checked": "2026-10-08"
   },
   "BN": {
    "req": "required",
-   "limits": []
+   "limits": [],
+   "note": "A visa is required; the Serbian page states no length of stay.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/brunei-darussalam",
+   "checked": "2026-10-08"
   },
   "BF": {
-   "req": "evisa",
-   "limits": []
+   "req": "required",
+   "limits": [],
+   "note": "A visa is required; the Serbian page states no length of stay.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/burkina-faso",
+   "checked": "2026-10-08"
   },
   "BI": {
-   "req": "arrival",
-   "limits": []
+   "req": "required",
+   "limits": [],
+   "passportDays": 180,
+   "note": "A visa is required (from the Burundi embassy in Paris); the Serbian page states no length of stay for ordinary passports.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/burundi",
+   "checked": "2026-10-08"
   },
   "KH": {
    "req": "arrival",
    "limits": []
   },
   "CM": {
-   "req": "evisa",
-   "limits": []
+   "req": "required",
+   "limits": [],
+   "note": "Visa required for ordinary passports; no stay length stated.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/cameroon",
+   "checked": "2026-10-08"
   },
   "CA": {
    "req": "required",
-   "limits": []
+   "limits": [],
+   "note": "Visa required for ordinary passports; the page states no maximum stay.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/canada",
+   "checked": "2026-10-08"
   },
   "CV": {
-   "req": "arrival",
-   "limits": []
+   "req": "required",
+   "limits": [],
+   "note": "Visa required for ordinary passports, obtained via the Cabo Verde embassy in Brussels; no stay length stated.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/cabo-verde",
+   "checked": "2026-10-08"
   },
   "CF": {
    "req": "required",
-   "limits": []
+   "limits": [],
+   "passportDays": 180,
+   "note": "Visa required for ordinary passports; passport must be valid at least 6 months (counted as 180 days) and a yellow card is needed.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/central-african-republic",
+   "checked": "2026-10-08"
   },
   "TD": {
    "req": "evisa",
@@ -197,34 +285,41 @@
    "req": "free",
    "limits": [
     {
-     "kind": "rolling",
-     "days": 90,
-     "window": 180
+     "kind": "stay",
+     "days": 90
     }
    ],
-   "approx": true
+   "note": "Visa-free for stays of up to 90 days.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/chile",
+   "checked": "2026-10-08"
   },
   "CN": {
    "req": "free",
    "limits": [
     {
-     "kind": "rolling",
-     "days": 30,
-     "window": 180
+     "kind": "stay",
+     "days": 30
     }
    ],
-   "approx": true
+   "note": "Visa-free for stays of up to 30 days from entry in mainland China; an electronic entry card must be completed.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/china",
+   "checked": "2026-10-08"
   },
   "CO": {
    "req": "free",
    "limits": [
     {
-     "kind": "rolling",
-     "days": 90,
-     "window": 180
+     "kind": "stay",
+     "days": 90
+    },
+    {
+     "kind": "year",
+     "days": 180
     }
    ],
-   "approx": true
+   "note": "Visa-free for up to 90 days, extendable by another 90, within 180 days in a calendar year.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/colombia",
+   "checked": "2026-10-08"
   },
   "KM": {
    "req": "arrival",
@@ -232,36 +327,43 @@
   },
   "CG": {
    "req": "required",
-   "limits": []
+   "limits": [],
+   "note": "Visa required for ordinary passports; the 90-in-180 days rule on the page applies only to diplomatic and official passports.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/congo-republic",
+   "checked": "2026-10-08"
   },
   "CD": {
-   "req": "evisa",
-   "limits": []
+   "req": "required",
+   "limits": [],
+   "note": "Visa required for ordinary passports, plus a yellow fever vaccination certificate; no stay length stated.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/congo-democratic-republic",
+   "checked": "2026-10-08"
   },
   "CR": {
    "req": "free",
    "limits": [
     {
      "kind": "stay",
-     "days": 180
+     "days": 90
     }
    ],
-   "approx": true
+   "note": "Visa-free for up to 3 months (entered as 90 days); the page asks for passport validity of at least 6 months for tourist travel.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/costa-rica",
+   "checked": "2026-10-08"
   },
   "CI": {
-   "req": "eta",
-   "limits": []
+   "req": "required",
+   "limits": [],
+   "note": "Visa required for ordinary passports; no stay length stated.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/cote-divoire",
+   "checked": "2026-10-08"
   },
   "CU": {
-   "req": "free",
-   "limits": [
-    {
-     "kind": "rolling",
-     "days": 90,
-     "window": 180
-    }
-   ],
-   "approx": true
+   "req": "evisa",
+   "limits": [],
+   "note": "Visa required, applied for online; no stay length stated for ordinary passports and passport must be valid at least 6 months from entry.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/cuba",
+   "checked": "2026-10-08"
   },
   "CY": {
    "req": "free",
@@ -275,8 +377,11 @@
    "approx": true
   },
   "DJ": {
-   "req": "arrival",
-   "limits": []
+   "req": "required",
+   "limits": [],
+   "note": "Visa required, with single-entry visas available via the government eVisa site; no total stay length stated.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/djibouti",
+   "checked": "2026-10-08"
   },
   "DM": {
    "req": "free",
@@ -304,28 +409,38 @@
    "req": "free",
    "limits": [
     {
-     "kind": "rolling",
-     "days": 90,
-     "window": 180
+     "kind": "stay",
+     "days": 90
     }
    ],
-   "approx": true
+   "note": "Visa-free for tourist stays of up to 90 days.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/ecuador",
+   "checked": "2026-10-08"
   },
   "EG": {
-   "req": "arrival",
-   "limits": []
+   "req": "required",
+   "limits": [],
+   "note": "Visa required; the page says stay up to 90 days but also that the tourist visa is valid 30 days, so no day limit is entered.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/egypt",
+   "checked": "2026-10-08"
   },
   "SV": {
    "req": "evisa",
    "limits": []
   },
   "GQ": {
-   "req": "evisa",
-   "limits": []
+   "req": "required",
+   "limits": [],
+   "note": "Visa required from the embassy in Rome; the 90-day visa-free stay applies only to diplomatic and official passports; yellow fever card required.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/equatorial-guinea",
+   "checked": "2026-10-08"
   },
   "ER": {
    "req": "required",
-   "limits": []
+   "limits": [],
+   "note": "Visa required, obtained through the Eritrean embassy in Rome; no stay length is stated.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/eritrea",
+   "checked": "2026-10-08"
   },
   "SZ": {
    "req": "free",
@@ -339,100 +454,117 @@
    "approx": true
   },
   "ET": {
-   "req": "arrival",
-   "limits": []
+   "req": "evisa",
+   "limits": [],
+   "note": "Visa required, obtainable at the Ethiopian embassy in Rome or online at evisa.gov.et; yellow fever certificate required and no stay length is stated.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/ethiopia",
+   "checked": "2026-10-08"
   },
   "FJ": {
    "req": "free",
-   "limits": [
-    {
-     "kind": "stay",
-     "days": 120
-    }
-   ],
-   "approx": true
+   "limits": [],
+   "note": "Visa-free; passport must be valid at least three months after departure from Fiji and no maximum stay is stated.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/fiji",
+   "checked": "2026-10-08"
   },
   "GA": {
-   "req": "evisa",
-   "limits": []
+   "req": "required",
+   "limits": [],
+   "note": "Ordinary passports need a visa (an e-visa at evisa.dgdi.ga is valid only for arrival at Libreville airport); yellow fever certificate required and no stay length is stated.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/gabon",
+   "checked": "2026-10-08"
   },
   "GM": {
-   "req": "free",
-   "limits": [
-    {
-     "kind": "rolling",
-     "days": 90,
-     "window": 180
-    }
-   ],
-   "approx": true
+   "req": "required",
+   "limits": [],
+   "note": "Visa required for national passports; no stay length stated.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/gambia",
+   "checked": "2026-10-08"
   },
   "GE": {
    "req": "free",
    "limits": [
     {
      "kind": "stay",
-     "days": 360
+     "days": 365
     }
    ],
-   "approx": true
+   "note": "Visa-free entry and stay for up to one year; travel health insurance is required from 1 January 2026.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/georgia",
+   "checked": "2026-10-08"
   },
   "GH": {
-   "req": "required",
-   "limits": []
+   "req": "evisa",
+   "limits": [],
+   "note": "Visa required via the Ghana e-Visa platform; passport must be valid 6 months from planned return, yellow fever certificate required, and no maximum stay is stated.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/ghana",
+   "checked": "2026-10-08"
   },
   "GD": {
    "req": "free",
-   "limits": [
-    {
-     "kind": "rolling",
-     "days": 90,
-     "window": 180
-    }
-   ],
-   "approx": true
+   "limits": [],
+   "note": "Visa-free for Serbian passport holders; no stay length is stated.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/grenada",
+   "checked": "2026-10-08"
   },
   "GT": {
    "req": "required",
-   "limits": []
+   "limits": [],
+   "note": "Visa required and not available at the border (US visa holders exempt); the 90-day visa-free stay is only for diplomatic and official passports; passport valid 6 months.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/guatemala",
+   "checked": "2026-10-08"
   },
   "GN": {
-   "req": "evisa",
-   "limits": []
+   "req": "required",
+   "limits": [],
+   "note": "Visa required from the Guinean embassy in Rome (no eVisa or visa on arrival); no stay length stated for ordinary passports, passport should be valid 6 months.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/guinea",
+   "checked": "2026-10-08"
   },
   "GW": {
-   "req": "arrival",
-   "limits": []
+   "req": "required",
+   "limits": [],
+   "note": "Visa required from the embassy in Brussels (no eVisa or visa on arrival); no stay length stated, passport should be valid 6 months.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/guinea-bissau",
+   "checked": "2026-10-08"
   },
   "GY": {
-   "req": "evisa",
-   "limits": []
+   "req": "required",
+   "limits": [],
+   "note": "Visa required for Serbian passport holders; no stay length or passport validity stated.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/guyana",
+   "checked": "2026-10-08"
   },
   "HT": {
-   "req": "free",
-   "limits": [
-    {
-     "kind": "rolling",
-     "days": 90,
-     "window": 180
-    }
-   ],
-   "approx": true
+   "req": "required",
+   "limits": [],
+   "note": "Visa required; no stay length stated, passport must be valid 6 months after the visa expires.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/haiti",
+   "checked": "2026-10-08"
   },
   "HN": {
    "req": "required",
-   "limits": []
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 30
+    }
+   ],
+   "note": "Visa required, issued for 30 days with possible extension of another 60 days; passport valid 3 months beyond the stay.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/honduras",
+   "checked": "2026-10-08"
   },
   "HK": {
    "req": "free",
    "limits": [
     {
-     "kind": "rolling",
-     "days": 14,
-     "window": 180
+     "kind": "stay",
+     "days": 14
     }
    ],
-   "approx": true
+   "note": "Visa-free for up to 14 days per the Serbian MFA China page, which covers Hong Kong SAR. Hong Kong Immigration Department says this applies to biometric Serbian passports only.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/china",
+   "checked": "2026-10-08"
   },
   "IN": {
    "req": "evisa",
@@ -589,12 +721,13 @@
    "req": "free",
    "limits": [
     {
-     "kind": "rolling",
-     "days": 30,
-     "window": 180
+     "kind": "stay",
+     "days": 90
     }
    ],
-   "approx": true
+   "note": "Visa-free for a stay of up to 90 days.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/micronesia",
+   "checked": "2026-10-08"
   },
   "MD": {
    "req": "free",
@@ -949,16 +1082,21 @@
    "req": "free",
    "limits": [
     {
-     "kind": "rolling",
-     "days": 90,
-     "window": 180
+     "kind": "stay",
+     "days": 90
     }
    ],
-   "approx": true
+   "passportDays": 180,
+   "note": "Visa-free for up to 90 days; for tourism the passport must have at least 6 months validity left.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/united-arab-emirates",
+   "checked": "2026-10-08"
   },
   "GB": {
    "req": "required",
-   "limits": []
+   "limits": [],
+   "note": "Visa required and must be obtained before travel through TLS in Belgrade; no stay length is stated.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/united-kingdom",
+   "checked": "2026-10-08"
   },
   "US": {
    "req": "required",
@@ -1032,7 +1170,10 @@
   },
   "AF": {
    "req": "required",
-   "limits": []
+   "limits": [],
+   "note": "Visa required in advance from an Afghan mission; none on arrival; no stay length stated.",
+   "src": "https://www.mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/afghanistan",
+   "checked": "2026-10-08"
   },
   "SCHENGEN": {
    "req": "free",
@@ -1045,7 +1186,7 @@
    ],
    "note": "Schengen area: 90 days in any 180.",
    "src": "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/border-crossing_en",
-   "checked": "2026-10-07"
+   "checked": "2026-10-08"
   }
  }
 }

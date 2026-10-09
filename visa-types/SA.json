@@ -1,0 +1,196 @@
+{
+ "country": "SA",
+ "types": [
+  {
+   "id": "EVISA",
+   "name": "Tourist eVisa",
+   "category": "tourist",
+   "purpose": "Tourism, visiting family and friends, events and Umrah (not Hajj, study or work), applied for online.",
+   "who": "Citizens of eligible countries (eVisa portal)",
+   "limits": [
+    {
+     "kind": "stay",
+     "days": 90
+    }
+   ],
+   "maxValidity": "1 year from issue",
+   "entries": "multiple",
+   "approx": true,
+   "note": "Official eVisa terms: maximum stay 3 months, cannot be extended; passport valid 6 months. Not a work visa.",
+   "src": "https://visa.visitsaudi.com/Home/TermsConditions",
+   "apply": "https://visa.visitsaudi.com/",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "VOA",
+   "name": "Tourist visa on arrival",
+   "category": "tourist",
+   "purpose": "Tourist visa issued on arrival to eligible nationalities, or to holders of a valid US, UK or Schengen visa.",
+   "who": "Eligible nationalities / US-UK-Schengen visa holders",
+   "limits": [],
+   "maxValidity": "Per tourist visa rules",
+   "note": "Eligibility depends on nationality; check the visa regulations page.",
+   "src": "https://www.visitsaudi.com/en/plan-your-trip/visa-regulations",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "TOURIST-MISSION",
+   "name": "Tourist visa via Saudi mission",
+   "category": "tourist",
+   "purpose": "Tourist visa applied for at a Saudi embassy or consulate by nationalities not eligible for the eVisa.",
+   "who": "Nationals of non-eligible countries",
+   "limits": [],
+   "entries": "varies",
+   "note": "Stay and validity are set by the mission.",
+   "src": "https://www.visitsaudi.com/en/plan-your-trip/visa-regulations",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "TRANSIT",
+   "name": "Transit / stopover visa",
+   "category": "transit",
+   "purpose": "Short stop in Saudi Arabia while travelling onward, applied for online.",
+   "who": "Passengers in transit",
+   "limits": [],
+   "maxValidity": "3 months; stay up to 96 hours",
+   "entries": "single",
+   "note": "MOFA e-service lists transit visas of 48 and 96 hours; one official page differs, confirm before travel.",
+   "src": "https://www.visitsaudi.com/en/campaigns/saudi-stopover",
+   "apply": "https://visa.visitsaudi.com/",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "FAMILY",
+   "name": "Family visit visa",
+   "category": "family",
+   "purpose": "Visit to first-degree relatives (parents, spouse, children) resident in or citizens of Saudi Arabia.",
+   "who": "First-degree relatives of a resident or citizen",
+   "limits": [],
+   "entries": "varies",
+   "note": "Inviter starts the request. Not valid for Hajj. Inviter must hold a work Iqama.",
+   "src": "https://my.gov.sa/en/services/18563",
+   "apply": "https://www.mofa.gov.sa/en/eservices/Pages/svc13.aspx",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "PERSONAL",
+   "name": "Personal visit visa",
+   "category": "other",
+   "purpose": "Visit for people with no business or family relationship to the inviting resident.",
+   "who": "Invitees of a Saudi resident or citizen",
+   "limits": [],
+   "entries": "varies",
+   "src": "https://www.mofa.gov.sa/en/eservices/Pages/default.aspx",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "BUSINESS",
+   "name": "Business visit visa",
+   "category": "business",
+   "purpose": "Visit by professionals who have business relations with a Saudi company or institution that invites them.",
+   "who": "Invitees of a Saudi company",
+   "limits": [],
+   "entries": "varies",
+   "src": "https://www.mofa.gov.sa/en/eservices/Pages/default.aspx",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "WORK-VISIT",
+   "name": "Work visa",
+   "category": "work",
+   "purpose": "Entry visa for people abroad to work in Saudi Arabia, individually or via accredited agents and companies.",
+   "who": "Workers hired from abroad",
+   "limits": [],
+   "entries": "varies",
+   "note": "Converted to an Iqama after arrival.",
+   "src": "https://www.mofa.gov.sa/en/eservices/Pages/default.aspx",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "COMPANION",
+   "name": "Resident companion (family) entry visa",
+   "category": "family",
+   "purpose": "Entry visa for companions of residents, requested without visiting the authority.",
+   "who": "Family of residents",
+   "limits": [],
+   "entries": "varies",
+   "src": "https://www.mofa.gov.sa/en/eservices/Pages/default.aspx",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "MEDICAL",
+   "name": "Medical treatment visa",
+   "category": "other",
+   "purpose": "Visit to the Kingdom for medical treatment.",
+   "who": "Foreign patients",
+   "limits": [],
+   "entries": "varies",
+   "note": "Private hospitals submit a support letter from health affairs.",
+   "src": "https://www.my.gov.sa/wps/portal/snp/servicesDirectory/servicedetails/7363/",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "UMRAH",
+   "name": "Umrah visa",
+   "category": "other",
+   "purpose": "Umrah pilgrimage; travel allowed between Makkah, Madinah and other cities.",
+   "who": "Pilgrims from outside Saudi Arabia",
+   "limits": [],
+   "maxValidity": "Enter within 3 months of issue",
+   "entries": "single",
+   "note": "Ministry FAQ gives 90 days of stay (no extension beyond 90) but also a 30-day cap ending 15 Dhu al-Qi'dah, so stay is not set here. Cannot be extended for Hajj.",
+   "src": "https://haj.gov.sa/en/FAQ",
+   "apply": "https://haj.gov.sa/en/E-Services/Umrah-Permit-Application",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "HAJJ",
+   "name": "Hajj visa",
+   "category": "other",
+   "purpose": "Hajj pilgrimage, for those with approval from the relevant authorities.",
+   "who": "Approved pilgrims",
+   "limits": [],
+   "entries": "single",
+   "note": "Visit, tourist and work visas do not permit Hajj. Residents need ID or Iqama.",
+   "src": "https://haj.gov.sa/en/FAQ",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "PR-UNLIMITED",
+   "name": "Premium Residency (unlimited duration)",
+   "category": "residence",
+   "purpose": "Premium residency of unlimited duration for foreigners.",
+   "who": "Foreigners meeting Premium Residency Center criteria",
+   "limits": [],
+   "maxValidity": "Unlimited",
+   "entries": "multiple",
+   "src": "https://my.gov.sa/en/services/182760",
+   "apply": "https://my.gov.sa/en/services/187911",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "PR-TALENT",
+   "name": "Premium Residency (special talent)",
+   "category": "residence",
+   "purpose": "Premium residency for researchers, healthcare and scientific professionals, and other special talents.",
+   "who": "Skilled professionals",
+   "limits": [],
+   "entries": "multiple",
+   "src": "https://www.my.gov.sa/wps/portal/snp/servicesDirectory/servicedetails/3011",
+   "apply": "https://my.gov.sa/en/services/187911",
+   "checked": "2026-10-08"
+  },
+  {
+   "id": "PR-INVESTOR",
+   "name": "Premium Residency (investor)",
+   "category": "residence",
+   "purpose": "Premium residency for investors with a Ministry of Investment licence.",
+   "who": "Investors",
+   "limits": [],
+   "entries": "multiple",
+   "src": "https://www.my.gov.sa/wps/portal/snp/servicesDirectory/servicedetails/3013",
+   "apply": "https://my.gov.sa/en/services/187911",
+   "checked": "2026-10-08"
+  }
+ ]
+}

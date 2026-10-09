@@ -2,7 +2,7 @@
  "format": "tm-visa-rules",
  "version": 1,
  "passport": "FI",
- "generated": "2026-10-07",
+ "generated": "2026-10-08",
  "source": "passport-index-data (MIT) + checked overrides",
  "rules": {
   "AL": {
